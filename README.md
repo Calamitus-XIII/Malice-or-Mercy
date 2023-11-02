@@ -1,5 +1,5 @@
 
-# Malice or Mercy Minecraft Mod
+![malmercybanner](./maliceormercybanner.png "banner")
 
 Welcome to **Malice or Mercy**, an immersive Minecraft mod that introduces exciting new gameplay elements, effects, enchantments, and gear to enhance your Minecraft experience. Dive into the world of uncertainty, where players can choose to embrace malice or show mercy to their foes.
 
