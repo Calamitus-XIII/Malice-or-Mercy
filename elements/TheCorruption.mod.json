@@ -1,0 +1,51 @@
+{
+  "_fv": 47,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:CorruptField"
+      },
+      {
+        "value": "CUSTOM:CorruptForest"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:CorruptStone"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:LiquidCorruption"
+    },
+    "airColor": {
+      "value": -11403105,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": true,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.CRYING_OBSIDIAN"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 7,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "enableIgniter": true,
+    "igniterName": "Corrupt Igniter",
+    "specialInfo": [],
+    "igniterTab": {
+      "value": "CUSTOM:MaliceOrMercy"
+    },
+    "texture": "corrupt_bone_and_powder",
+    "portalTexture": "corrupt_portal",
+    "enablePortal": true
+  }
+}

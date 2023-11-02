@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/corrupt_planks",
+    "up": "malice_or_mercy:block/corrupt_planks",
+    "north": "malice_or_mercy:block/corrupt_planks",
+    "east": "malice_or_mercy:block/corrupt_planks",
+    "south": "malice_or_mercy:block/corrupt_planks",
+    "west": "malice_or_mercy:block/corrupt_planks",
+    "particle": "malice_or_mercy:block/corrupt_planks"
+  },
+  "render_type": "solid"
+}

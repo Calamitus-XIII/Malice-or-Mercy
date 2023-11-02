@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "1": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "2": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "3": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "5": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "6": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "7": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "8": {
+      "item": "malice_or_mercy:corrupt_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}

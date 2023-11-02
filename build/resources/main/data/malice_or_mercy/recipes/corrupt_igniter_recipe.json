@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " 1",
+    "2 "
+  ],
+  "key": {
+    "1": {
+      "item": "malice_or_mercy:corrupt_powder"
+    },
+    "2": {
+      "item": "malice_or_mercy:snapped_corrupt_bone"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:the_corruption",
+    "count": 1
+  }
+}

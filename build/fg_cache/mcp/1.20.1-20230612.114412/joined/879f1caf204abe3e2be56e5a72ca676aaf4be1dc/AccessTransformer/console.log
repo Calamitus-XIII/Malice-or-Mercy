@@ -1,0 +1,6 @@
+JVM:         E:\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "E:\MCreator\workspaces\test\malice_or_mercy\build\fg_cache\mcp\1.20.1-20230612.114412\joined\879f1caf204abe3e2be56e5a72ca676aaf4be1dc\rename\output.jar", "--outJar", "E:\MCreator\workspaces\test\malice_or_mercy\build\fg_cache\mcp\1.20.1-20230612.114412\joined\879f1caf204abe3e2be56e5a72ca676aaf4be1dc\AccessTransformer\output.jar", "--atFile", "E:\MCreator\workspaces\test\malice_or_mercy\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\calam\AppData\Local\Temp\FG_ats_2233612321491689718.cfg"
+Classpath:   C:\Users\calam\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: E:\MCreator\workspaces\test\malice_or_mercy\build\fg_cache\mcp\1.20.1-20230612.114412\joined\879f1caf204abe3e2be56e5a72ca676aaf4be1dc\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

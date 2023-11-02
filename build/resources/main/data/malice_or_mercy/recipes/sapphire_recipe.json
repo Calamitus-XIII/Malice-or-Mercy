@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malice_or_mercy:block_of_sapphire"
+    }
+  ],
+  "result": {
+    "item": "malice_or_mercy:sapphire",
+    "count": 9
+  }
+}

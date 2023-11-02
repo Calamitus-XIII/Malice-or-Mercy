@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 4,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      },
+      {
+        "value": "CUSTOM:CorruptPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CorruptStairs"
+    },
+    "name": "corrupt_stairs_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "malice_or_mercy:corrupt_log"
+    }
+  ],
+  "result": {
+    "item": "malice_or_mercy:corrupt_planks",
+    "count": 4
+  }
+}

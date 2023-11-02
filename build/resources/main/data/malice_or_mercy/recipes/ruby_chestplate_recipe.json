@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "2": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "3": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "4": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "5": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "6": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "7": {
+      "item": "malice_or_mercy:ruby"
+    },
+    "8": {
+      "item": "malice_or_mercy:ruby"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:ruby_armour_chestplate",
+    "count": 1
+  }
+}

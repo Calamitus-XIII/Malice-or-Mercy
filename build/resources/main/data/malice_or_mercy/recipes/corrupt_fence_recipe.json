@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "3": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "malice_or_mercy:corrupt_planks"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:corrupt_fence",
+    "count": 3
+  }
+}

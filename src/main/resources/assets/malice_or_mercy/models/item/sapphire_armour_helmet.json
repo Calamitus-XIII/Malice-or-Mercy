@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "malice_or_mercy:item/sapphire_helmet"
+  }
+}

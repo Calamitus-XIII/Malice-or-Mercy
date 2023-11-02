@@ -1,0 +1,7 @@
+{
+  "_fv": 47,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">player_ticks</field><next><block type=\"controls_if\"><comment pinned=\"false\" h=\"84\" w=\"254\">This example will test for a specific block below what is running the procedure. If it is true, then it will run what you place in the \"do\" section of the if statement.</comment><value name=\"IF0\"><block type=\"compare_mcblocks\"><value name=\"a\"><block type=\"world_data_blockat\"><value name=\"x\"><block type=\"coord_x\"></block></value><value name=\"y\"><block type=\"coord_y\"></block></value><value name=\"z\"><block type=\"coord_z\"></block></value></block></value><value name=\"b\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.AIR</field></block></value></block></value><statement name=\"DO0\"><block type=\"variables_set_logic\"><mutation xmlns=\"http://www.w3.org/1999/xhtml\" is_player_var=\"false\" has_entity=\"false\"></mutation><field name=\"VAR\">global:corruptFireVariable</field><value name=\"VAL\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></statement></block></next></block></xml>"
+  }
+}

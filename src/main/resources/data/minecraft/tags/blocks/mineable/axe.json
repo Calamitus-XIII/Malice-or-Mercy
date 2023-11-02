@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "malice_or_mercy:corrupt_log",
+    "malice_or_mercy:corrupt_planks",
+    "malice_or_mercy:corrupt_stairs",
+    "malice_or_mercy:corrupt_slab",
+    "malice_or_mercy:corrupt_fence",
+    "malice_or_mercy:corrupt_fence_gate"
+  ]
+}

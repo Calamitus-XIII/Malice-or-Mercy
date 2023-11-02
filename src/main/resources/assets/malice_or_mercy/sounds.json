@@ -1,0 +1,228 @@
+{
+  "item.armor.equip_amethyst": {
+    "subtitle": "subtitles.item.armor.equip_amethyst",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:equip_amethyst1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_amethyst2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_amethyst3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_amethyst4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_amethyst5",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_amethyst6",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_fiend.death": {
+    "subtitle": "subtitles.entity.corrupt_fiend.death",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_fiend.death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_fiend.hurt": {
+    "subtitle": "subtitles.entity.corrupt_fiend.hurt",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_fiend.hurt1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.hurt2",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_fiend.step": {
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_fiend.step1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.step2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.step3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.step4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.step5",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_fiend.ambient": {
+    "subtitle": "subtitles.entity.corrupt_fiend.ambient",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_fiend.idle1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_fiend.idle2",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_hound.death": {
+    "subtitle": "subtitles.entity.corrupt_hound.death",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_hound.death",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_hound.hurt": {
+    "subtitle": "subtitles.entity.corrupt_hound.hurt",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_hound.hurt1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.hurt2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_hound.step": {
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_hound.step1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.step2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.step3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.step4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.step5",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_hound.ambient": {
+    "subtitle": "subtitles.entity.corrupt_hound.ambient",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_hound.idle1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.idle2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.idle3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_hound.target": {
+    "subtitle": "subtitles.entity.corrupt_hound.target",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_hound.howl1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_hound.howl2",
+        "stream": false
+      }
+    ]
+  },
+  "item.armor.equip_ruby": {
+    "subtitle": "subtitles.item.armor.equip_ruby",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:equip_ruby1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_ruby2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_ruby3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_ruby4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_ruby5",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_ruby6",
+        "stream": false
+      }
+    ]
+  },
+  "item.armor.equip_sapphire": {
+    "subtitle": "subtitles.item.armor.equip_sapphire",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:equip_sapphire1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_sapphire2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_sapphire3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_sapphire4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_sapphire5",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:equip_sapphire6",
+        "stream": false
+      }
+    ]
+  }
+}

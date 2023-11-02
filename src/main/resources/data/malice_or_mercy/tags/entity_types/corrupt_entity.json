@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "malice_or_mercy:corrupt_fiend",
+    "malice_or_mercy:corrupt_hound",
+    "malice_or_mercy:corrupt_tormentor",
+    "malice_or_mercy:corrupt_beast"
+  ]
+}

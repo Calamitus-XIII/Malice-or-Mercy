@@ -1,0 +1,27 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:CorruptFiend"
+      },
+      {
+        "value": "CUSTOM:CorruptHound"
+      },
+      {
+        "value": "CUSTOM:CorruptBeast"
+      },
+      {
+        "value": "CUSTOM:CorruptTormentor"
+      }
+    ],
+    "biomes": [],
+    "name": "corrupt_entity",
+    "namespace": "malice_or_mercy"
+  }
+}

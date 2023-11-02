@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "1": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "2": {
+      "item": "malice_or_mercy:corrupt_planks"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:corrupt_slab",
+    "count": 6
+  }
+}

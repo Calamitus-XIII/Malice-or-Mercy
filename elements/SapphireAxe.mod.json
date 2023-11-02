@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "texture": "sapphire_axe",
+    "customModelName": "Normal",
+    "name": "Sapphire Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MaliceOrMercy"
+    },
+    "harvestLevel": 4,
+    "efficiency": 8.5,
+    "attackSpeed": 1.2000000000000002,
+    "enchantability": 13,
+    "damageVsEntity": 9.5,
+    "usageCount": 1941,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sapphire"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

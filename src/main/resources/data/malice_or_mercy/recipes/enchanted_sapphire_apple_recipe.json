@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "1": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "2": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "3": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "4": {
+      "item": "malice_or_mercy:sapphire_apple"
+    },
+    "5": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "6": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "7": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    },
+    "8": {
+      "item": "malice_or_mercy:block_of_sapphire"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:enchanted_sapphire_apple",
+    "count": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "valid_base_block": {
+      "Name": "malice_or_mercy:corrupt_nylium"
+    },
+    "stem_state": {
+      "Name": "malice_or_mercy:corrupt_log",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "hat_state": {
+      "Name": "malice_or_mercy:corrupt_scale"
+    },
+    "decor_state": {
+      "Name": "malice_or_mercy:corrupt_berry_vine"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "#replaceable_by_trees"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Hoe",
+    "renderType": 0,
+    "texture": "sapphire_hoe",
+    "customModelName": "Normal",
+    "name": "Sapphire Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MaliceOrMercy"
+    },
+    "harvestLevel": 4,
+    "efficiency": 8.5,
+    "attackSpeed": 4.0,
+    "enchantability": 13,
+    "damageVsEntity": 2.0,
+    "usageCount": 1941,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Sapphire"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

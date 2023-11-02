@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "malice_or_mercy:corrupt_forest",
+    "malice_or_mercy:corrupt_field"
+  ],
+  "features": "malice_or_mercy:corrupt_roots_generation",
+  "step": "surface_structures"
+}

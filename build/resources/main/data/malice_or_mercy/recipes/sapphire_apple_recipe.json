@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "1": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "2": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "3": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "6": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "7": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "8": {
+      "item": "malice_or_mercy:sapphire"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:sapphire_apple",
+    "count": 1
+  }
+}

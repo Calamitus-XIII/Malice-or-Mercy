@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "1": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "2": {
+      "item": "malice_or_mercy:corrupt_planks"
+    },
+    "3": {
+      "item": "malice_or_mercy:corrupt_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

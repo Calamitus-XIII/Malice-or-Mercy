@@ -1,0 +1,31 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "texture": "amethyst_shovel",
+    "customModelName": "Normal",
+    "name": "Amethyst Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MaliceOrMercy"
+    },
+    "harvestLevel": 3,
+    "efficiency": 8.5,
+    "attackSpeed": 1.0,
+    "enchantability": 13,
+    "damageVsEntity": 2.5,
+    "usageCount": 1124,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.AMETHYST_SHARD"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:amethyst_block"
+    },
+    "1": {
+      "item": "minecraft:amethyst_block"
+    },
+    "2": {
+      "item": "minecraft:amethyst_block"
+    },
+    "3": {
+      "item": "minecraft:amethyst_block"
+    },
+    "4": {
+      "item": "malice_or_mercy:amethyst_apple"
+    },
+    "5": {
+      "item": "minecraft:amethyst_block"
+    },
+    "6": {
+      "item": "minecraft:amethyst_block"
+    },
+    "7": {
+      "item": "minecraft:amethyst_block"
+    },
+    "8": {
+      "item": "minecraft:amethyst_block"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:enchanted_amethyst_apple",
+    "count": 1
+  }
+}

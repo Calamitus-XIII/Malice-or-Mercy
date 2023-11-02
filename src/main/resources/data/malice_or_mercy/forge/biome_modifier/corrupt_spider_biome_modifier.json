@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "malice_or_mercy:corrupt_field",
+  "spawners": {
+    "type": "malice_or_mercy:corrupt_spider",
+    "weight": 10,
+    "minCount": 5,
+    "maxCount": 5
+  }
+}

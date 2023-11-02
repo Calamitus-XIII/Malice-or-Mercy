@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "1": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "2": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "3": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "5": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "6": {
+      "item": "malice_or_mercy:sapphire"
+    },
+    "8": {
+      "item": "malice_or_mercy:sapphire"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:sapphire_armour_leggings",
+    "count": 1
+  }
+}

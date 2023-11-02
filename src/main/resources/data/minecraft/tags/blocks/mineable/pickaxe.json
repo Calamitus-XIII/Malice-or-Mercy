@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "malice_or_mercy:ruby_ore",
+    "malice_or_mercy:sapphire_ore",
+    "malice_or_mercy:deepslate_ruby_ore",
+    "malice_or_mercy:deepslate_sapphire_ore"
+  ]
+}

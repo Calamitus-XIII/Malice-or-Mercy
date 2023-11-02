@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malice_or_mercy:corrupt_bone"
+    }
+  ],
+  "result": {
+    "item": "malice_or_mercy:snapped_corrupt_bone",
+    "count": 2
+  }
+}
