@@ -47,9 +47,9 @@
       "registry_name": "human",
       "metadata": {
         "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/human_spawn_egg.json",
           "src/main/java/net/mcreator/maliceormercy/client/renderer/HumanRenderer.java",
-          "src/main/java/net/mcreator/maliceormercy/entity/HumanEntity.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/human_spawn_egg.json"
+          "src/main/java/net/mcreator/maliceormercy/entity/HumanEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -434,10 +434,10 @@
       "registry_name": "corrupt_fiend",
       "metadata": {
         "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fiend_biome_modifier.json",
           "src/main/java/net/mcreator/maliceormercy/entity/CorruptFiendEntity.java",
-          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptFiendRenderer.java",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fiend_spawn_egg.json",
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fiend_biome_modifier.json"
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptFiendRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -535,8 +535,8 @@
       "registry_name": "diamond_coin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/DiamondCoinItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/diamond_coin.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/diamond_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/DiamondCoinItem.java"
         ]
       },
       "path": "~/Items/Currency/Coin"
@@ -550,8 +550,8 @@
       "registry_name": "amethyst_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_coin.json",
-          "src/main/java/net/mcreator/maliceormercy/item/AmethystCoinItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_coin.json"
         ]
       },
       "path": "~/Items/Currency/Coin"
@@ -565,8 +565,8 @@
       "registry_name": "onyx_coin",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/OnyxCoinItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/onyx_coin.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/onyx_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/OnyxCoinItem.java"
         ]
       },
       "path": "~/Items/Currency/Coin"
@@ -610,8 +610,8 @@
       "registry_name": "sapphire_coin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_coin.json",
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireCoinItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_coin.json"
         ]
       },
       "path": "~/Items/Currency/Coin"
@@ -625,11 +625,11 @@
       "registry_name": "amethyst_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_boots.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_leggings.json",
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystArmorItem.java",
           "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_chestplate.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_helmet.json",
-          "src/main/java/net/mcreator/maliceormercy/item/AmethystArmorItem.java"
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_helmet.json"
         ]
       },
       "path": "~/Armour"
@@ -643,8 +643,8 @@
       "registry_name": "amethyst_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_sword.json",
-          "src/main/java/net/mcreator/maliceormercy/item/AmethystSwordItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystSwordItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_sword.json"
         ]
       },
       "path": "~/Tools"
@@ -703,8 +703,8 @@
       "registry_name": "amethyst_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/AmethystShovelItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_shovel.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_shovel.json",
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -729,8 +729,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby.json",
-          "src/main/java/net/mcreator/maliceormercy/item/RubyItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/RubyItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby.json"
         ]
       },
       "path": "~/Items/Gems"
@@ -745,10 +745,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/maliceormercy/item/RubyArmourItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_leggings.json",
           "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_helmet.json",
           "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_chestplate.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_leggings.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_boots.json"
         ]
       },
       "path": "~/Armour"
@@ -762,8 +762,8 @@
       "registry_name": "ruby_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_sword.json",
-          "src/main/java/net/mcreator/maliceormercy/item/RubySwordItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/RubySwordItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_sword.json"
         ]
       },
       "path": "~/Tools"
@@ -792,8 +792,8 @@
       "registry_name": "ruby_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_hoe.json",
-          "src/main/java/net/mcreator/maliceormercy/item/RubyHoeItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/RubyHoeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -822,8 +822,8 @@
       "registry_name": "ruby_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/RubyShovelItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_shovel.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/maliceormercy/item/RubyShovelItem.java"
         ]
       },
       "path": "~/Tools"
@@ -857,8 +857,8 @@
       "registry_name": "corrupt_flesh",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_flesh.json",
-          "src/main/java/net/mcreator/maliceormercy/item/CorruptFleshItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptFleshItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_flesh.json"
         ]
       },
       "path": "~/Items/Food"
@@ -872,10 +872,10 @@
       "registry_name": "corrupt_hound",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_hound_spawn_egg.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_hound_biome_modifier.json",
           "src/main/java/net/mcreator/maliceormercy/entity/CorruptHoundEntity.java",
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_hound_biome_modifier.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_hound_spawn_egg.json",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -961,9 +961,9 @@
       "registry_name": "corrupt_beast",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/entity/CorruptBeastEntity.java",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptBeastRenderer.java",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_beast_spawn_egg.json",
-          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptBeastRenderer.java"
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptBeastEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -978,8 +978,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_tormentor_spawn_egg.json",
-          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptTormentorRenderer.java",
-          "src/main/java/net/mcreator/maliceormercy/entity/CorruptTormentorEntity.java"
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptTormentorEntity.java",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptTormentorRenderer.java"
         ]
       },
       "path": "~/Entities"
@@ -1366,9 +1366,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/malice_or_mercy/models/block/block_of_ruby.json",
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfRubyBlock.java",
           "src/main/resources/assets/malice_or_mercy/blockstates/block_of_ruby.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/block_of_ruby.json",
-          "src/main/java/net/mcreator/maliceormercy/block/BlockOfRubyBlock.java"
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_ruby.json"
         ]
       },
       "path": "~/Blocks/Blocks"
@@ -1452,10 +1452,10 @@
       "registry_name": "liquid_corruption",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/LiquidCorruptionItem.java",
           "src/main/java/net/mcreator/maliceormercy/fluid/types/LiquidCorruptionFluidType.java",
           "src/main/resources/assets/malice_or_mercy/models/block/liquid_corruption.json",
           "src/main/resources/assets/malice_or_mercy/models/item/liquid_corruption_bucket.json",
+          "src/main/java/net/mcreator/maliceormercy/item/LiquidCorruptionItem.java",
           "src/main/resources/assets/malice_or_mercy/blockstates/liquid_corruption.json",
           "src/main/java/net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid.java",
           "src/main/java/net/mcreator/maliceormercy/block/LiquidCorruptionBlock.java"
@@ -1492,10 +1492,10 @@
       "registry_name": "corrupt_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptStoneBlock.java",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_stone.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stone.json",
           "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stone.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stone.json"
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptStoneBlock.java"
         ]
       },
       "path": "~/Blocks/Stone"
@@ -1509,10 +1509,10 @@
       "registry_name": "corrupt_nylium",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_nylium.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_nylium.json",
           "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_nylium.json",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptNyliumBlock.java"
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptNyliumBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_nylium.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_nylium.json"
         ]
       },
       "path": "~/Blocks/Ground"
@@ -1526,17 +1526,17 @@
       "registry_name": "the_corruption",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionPortalShape.java",
-          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ew.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/the_corruption.json",
-          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionTeleporter.java",
-          "src/main/java/net/mcreator/maliceormercy/block/TheCorruptionPortalBlock.java",
-          "src/main/java/net/mcreator/maliceormercy/world/dimension/TheCorruptionDimension.java",
-          "src/main/resources/data/malice_or_mercy/dimension_type/the_corruption.json",
           "src/main/resources/data/malice_or_mercy/dimension/the_corruption.json",
-          "src/main/java/net/mcreator/maliceormercy/item/TheCorruptionItem.java",
           "src/main/resources/assets/malice_or_mercy/blockstates/the_corruption_portal.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ns.json"
+          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ns.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/the_corruption.json",
+          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionPortalShape.java",
+          "src/main/java/net/mcreator/maliceormercy/item/TheCorruptionItem.java",
+          "src/main/resources/data/malice_or_mercy/dimension_type/the_corruption.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ew.json",
+          "src/main/java/net/mcreator/maliceormercy/world/dimension/TheCorruptionDimension.java",
+          "src/main/java/net/mcreator/maliceormercy/block/TheCorruptionPortalBlock.java",
+          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionTeleporter.java"
         ]
       },
       "path": "~/Dimensions"
@@ -1652,14 +1652,14 @@
       "registry_name": "corrupt_fire",
       "metadata": {
         "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fire_biome_modifier.json",
           "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fire.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fire.json",
           "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptFireFeature.java",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptFireBlock.java",
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fire_biome_modifier.json",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fire.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire.json"
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFireBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire.json"
         ]
       },
       "path": "~/Blocks"
@@ -1749,8 +1749,8 @@
       "registry_name": "block_of_sapphire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/block_of_sapphire.json",
           "src/main/java/net/mcreator/maliceormercy/block/BlockOfSapphireBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_sapphire.json",
           "src/main/resources/assets/malice_or_mercy/blockstates/block_of_sapphire.json",
           "src/main/resources/assets/malice_or_mercy/models/block/block_of_sapphire.json"
         ]
@@ -1808,9 +1808,9 @@
       "registry_name": "corrupt_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_log.json",
           "src/main/java/net/mcreator/maliceormercy/block/CorruptLogBlock.java",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_log.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_log.json",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_log.json"
         ]
       },
@@ -1825,10 +1825,10 @@
       "registry_name": "corrupt_planks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_planks.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptPlanksBlock.java",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_planks.json",
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_planks.json",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptPlanksBlock.java"
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_planks.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_planks.json"
         ]
       },
       "path": "~/Blocks/Wood"
@@ -1856,12 +1856,12 @@
       "registry_name": "corrupt_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stairs.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_outer.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs.json",
           "src/main/java/net/mcreator/maliceormercy/block/CorruptStairsBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_inner.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stairs.json",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_stairs.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_inner.json"
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_outer.json"
         ]
       },
       "path": "~/Blocks/Wood"
@@ -1875,12 +1875,12 @@
       "registry_name": "corrupt_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_full.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_slab.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_top.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSlabBlock.java",
           "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_slab.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab.json",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptSlabBlock.java"
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_full.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_slab.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_top.json"
         ]
       },
       "path": "~/Blocks/Wood"
@@ -1894,12 +1894,12 @@
       "registry_name": "corrupt_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence.json",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceBlock.java",
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fence.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_post.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_inventory.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fence.json",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fence.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_inventory.json"
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceBlock.java"
         ]
       },
       "path": "~/Blocks/Wood"
@@ -1914,12 +1914,12 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fence_gate.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_open.json",
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceGateBlock.java",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_wall.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceGateBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_open.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fence_gate.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_wall_open.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fence_gate.json"
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate.json"
         ]
       },
       "path": "~/Blocks/Wood"
@@ -2048,8 +2048,8 @@
       "registry_name": "corrupt_roots_generation",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_roots_generation.json",
           "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_roots_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_roots_generation.json",
           "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_roots_generation_biome_modifier.json"
         ]
       },
@@ -2064,9 +2064,9 @@
       "registry_name": "corrupt_fire_generation",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire_generation.json",
           "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fire_generation_biome_modifier.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire_generation.json"
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire_generation.json"
         ]
       },
       "path": "~/Features"
@@ -2080,14 +2080,14 @@
       "registry_name": "ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/ruby_ore_biome_modifier.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/ruby_ore.json",
           "src/main/resources/assets/malice_or_mercy/models/block/ruby_ore.json",
-          "src/main/java/net/mcreator/maliceormercy/world/features/ores/RubyOreFeature.java",
-          "src/main/resources/assets/malice_or_mercy/blockstates/ruby_ore.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/ruby_ore_biome_modifier.json",
           "src/main/java/net/mcreator/maliceormercy/block/RubyOreBlock.java",
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/ruby_ore.json"
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/RubyOreFeature.java"
         ]
       },
       "path": "~/Blocks/Ores"
@@ -2101,14 +2101,14 @@
       "registry_name": "sapphire_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/sapphire_ore_biome_modifier.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/sapphire_ore.json",
           "src/main/java/net/mcreator/maliceormercy/block/SapphireOreBlock.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/sapphire_ore.json",
           "src/main/java/net/mcreator/maliceormercy/world/features/ores/SapphireOreFeature.java",
           "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/sapphire_ore.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/sapphire_ore.json",
-          "src/main/resources/assets/malice_or_mercy/blockstates/sapphire_ore.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/sapphire_ore.json"
         ]
       },
       "path": "~/Blocks/Ores"
@@ -2122,14 +2122,14 @@
       "registry_name": "deepslate_ruby_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_ruby_ore.json",
           "src/main/resources/assets/malice_or_mercy/models/item/deepslate_ruby_ore.json",
-          "src/main/java/net/mcreator/maliceormercy/block/DeepslateRubyOreBlock.java",
-          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_ruby_ore.json",
           "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_ruby_ore_biome_modifier.json",
-          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_ruby_ore.json",
           "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/deepslate_ruby_ore.json",
-          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateRubyOreFeature.java"
+          "src/main/java/net/mcreator/maliceormercy/block/DeepslateRubyOreBlock.java",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateRubyOreFeature.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_ruby_ore.json"
         ]
       },
       "path": "~/Blocks/Ores"
@@ -2143,14 +2143,14 @@
       "registry_name": "deepslate_sapphire_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_sapphire_ore.json",
-          "src/main/java/net/mcreator/maliceormercy/block/DeepslateSapphireOreBlock.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/deepslate_sapphire_ore.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_sapphire_ore.json",
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_sapphire_ore_biome_modifier.json",
-          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateSapphireOreFeature.java",
           "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/deepslate_sapphire_ore.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_sapphire_ore.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/deepslate_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/DeepslateSapphireOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateSapphireOreFeature.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_sapphire_ore.json"
         ]
       },
       "path": "~/Blocks/Ores"
@@ -2220,11 +2220,11 @@
       "registry_name": "sapphire_armour",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_helmet.json",
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireArmourItem.java",
           "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_chestplate.json",
           "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_leggings.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_boots.json"
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireArmourItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_helmet.json"
         ]
       },
       "path": "~/Armour"
@@ -2238,8 +2238,8 @@
       "registry_name": "sapphire_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireSwordItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_sword.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_sword.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireSwordItem.java"
         ]
       },
       "path": "~/Tools"
@@ -2253,8 +2253,8 @@
       "registry_name": "sapphire_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_axe.json",
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireAxeItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireAxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_axe.json"
         ]
       },
       "path": "~/Tools"
@@ -2268,8 +2268,8 @@
       "registry_name": "sapphire_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_hoe.json",
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireHoeItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireHoeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_hoe.json"
         ]
       },
       "path": "~/Tools"
@@ -2283,8 +2283,8 @@
       "registry_name": "sapphire_pickaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_pickaxe.json",
-          "src/main/java/net/mcreator/maliceormercy/item/SapphirePickaxeItem.java"
+          "src/main/java/net/mcreator/maliceormercy/item/SapphirePickaxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_pickaxe.json"
         ]
       },
       "path": "~/Tools"
@@ -2369,8 +2369,8 @@
       "registry_name": "corrupt_field_tree_generation",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_field_tree_generation.json",
           "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_field_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_field_tree_generation.json",
           "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_field_tree_generation_biome_modifier.json"
         ]
       },
@@ -2386,9 +2386,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/maliceormercy/block/CorruptScaleBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_scale.json",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_scale.json",
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_scale.json",
-          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_scale.json"
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_scale.json"
         ]
       },
       "path": "~/Blocks/Foliage"
@@ -2417,10 +2417,10 @@
       "registry_name": "corrupt_berry_vine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/block/CorruptBerryVineBlock.java",
-          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_berry_vine.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_berry_vine.json",
           "src/main/resources/assets/malice_or_mercy/models/block/corrupt_berry_vine.json",
-          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_berry_vine.json"
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_berry_vine.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptBerryVineBlock.java"
         ]
       },
       "path": "~/Blocks/Foliage"
@@ -2463,8 +2463,8 @@
       "metadata": {
         "files": [
           "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_forest_tree.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/biome/corrupt_forest.json"
+          "src/main/resources/data/malice_or_mercy/worldgen/biome/corrupt_forest.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree.json"
         ]
       },
       "path": "~/Biomes"
@@ -2478,9 +2478,9 @@
       "registry_name": "corrupt_forest_tree_generation",
       "metadata": {
         "files": [
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_forest_tree_generation_biome_modifier.json",
           "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_forest_tree_generation.json",
-          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree_generation.json"
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_forest_tree_generation_biome_modifier.json"
         ]
       },
       "path": "~/Features"
@@ -2647,8 +2647,8 @@
         "files": [
           "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer.java",
           "src/main/resources/assets/malice_or_mercy/models/item/corrupt_spider_spawn_egg.json",
-          "src/main/java/net/mcreator/maliceormercy/entity/CorruptSpiderEntity.java",
-          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_spider_biome_modifier.json"
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_spider_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptSpiderEntity.java"
         ]
       },
       "path": "~/Entities"
@@ -2794,8 +2794,8 @@
       "registry_name": "enchanted_ruby_apple",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/EnchantedRubyAppleItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_ruby_apple.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_ruby_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/EnchantedRubyAppleItem.java"
         ]
       },
       "path": "~/Items/Food"
@@ -2809,8 +2809,8 @@
       "registry_name": "sapphire_apple",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/maliceormercy/item/SapphireAppleItem.java",
-          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_apple.json"
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireAppleItem.java"
         ]
       },
       "path": "~/Items/Food"
@@ -3043,10 +3043,6 @@
           {
             "name": "sourceentity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
