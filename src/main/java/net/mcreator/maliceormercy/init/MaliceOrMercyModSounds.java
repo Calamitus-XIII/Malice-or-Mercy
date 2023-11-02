@@ -27,4 +27,5 @@ public class MaliceOrMercyModSounds {
 	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_HOUND_TARGET = REGISTRY.register("entity.corrupt_hound.target", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_hound.target")));
 	public static final RegistryObject<SoundEvent> ITEM_ARMOR_EQUIP_RUBY = REGISTRY.register("item.armor.equip_ruby", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "item.armor.equip_ruby")));
 	public static final RegistryObject<SoundEvent> ITEM_ARMOR_EQUIP_SAPPHIRE = REGISTRY.register("item.armor.equip_sapphire", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "item.armor.equip_sapphire")));
+	public static final RegistryObject<SoundEvent> EFFECT_MARKED_EXECUTE = REGISTRY.register("effect.marked_execute", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "effect.marked_execute")));
 }

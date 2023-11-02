@@ -224,5 +224,14 @@
         "stream": false
       }
     ]
+  },
+  "effect.marked_execute": {
+    "subtitle": "subtitles.effect.marked_execute",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:marked_execute",
+        "stream": false
+      }
+    ]
   }
 }

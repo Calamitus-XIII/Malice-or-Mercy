@@ -31,10 +31,10 @@ public class ExecutionEnchantmentProcedure {
 	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).isEnchanted()) {
+		if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).isEnchanted() && !(entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(MaliceOrMercyModMobEffects.MARKED.get()))) {
 			if ((sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(MaliceOrMercyModEnchantments.EXECUTION.get()) == 1) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MaliceOrMercyModMobEffects.MARKED.get(), 200, 0));
+					_entity.addEffect(new MobEffectInstance(MaliceOrMercyModMobEffects.MARKED.get(), 600, 0));
 			}
 		}
 	}
