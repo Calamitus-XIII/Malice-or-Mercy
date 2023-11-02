@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "malice_or_mercy:block/corrupt_fire",
-    "particle": "malice_or_mercy:block/corrupt_fire"
-  },
-  "render_type": "translucent"
-}

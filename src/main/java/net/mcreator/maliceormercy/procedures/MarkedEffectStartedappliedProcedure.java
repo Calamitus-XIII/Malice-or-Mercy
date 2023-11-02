@@ -11,8 +11,9 @@ public class MarkedEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		MaliceOrMercyModVariables.MapVariables
-				.get(world).MarkedCounter = (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MaliceOrMercyModMobEffects.MARKED.get()) ? _livEnt.getEffect(MaliceOrMercyModMobEffects.MARKED.get()).getAmplifier() : 0) + 1;
+		MaliceOrMercyModVariables.MapVariables.get(world).MarkedCounter = entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MaliceOrMercyModMobEffects.MARKED.get())
+				? _livEnt.getEffect(MaliceOrMercyModMobEffects.MARKED.get()).getAmplifier()
+				: 0;
 		MaliceOrMercyModVariables.MapVariables.get(world).syncData(world);
 	}
 }

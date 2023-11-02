@@ -3039,30 +3039,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Effects/Procedures"
-    },
-    {
-      "name": "MarkedEffectStartedapplied",
-      "type": "procedure",
-      "sortid": 200,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "marked_effect_startedapplied",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedEffectStartedappliedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -3091,6 +3067,30 @@
         ]
       },
       "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "MarkedEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
     }
   ],
   "variable_elements": [

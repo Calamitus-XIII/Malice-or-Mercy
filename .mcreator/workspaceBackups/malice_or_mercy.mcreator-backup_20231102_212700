@@ -3039,19 +3039,39 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
       "path": "~/Effects/Procedures"
     },
     {
+      "name": "ExecutionEnchantment",
+      "type": "procedure",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execution_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/ExecutionEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
       "name": "MarkedEffectStartedapplied",
       "type": "procedure",
-      "sortid": 200,
+      "sortid": 202,
       "compiles": true,
       "locked_code": false,
       "registry_name": "marked_effect_startedapplied",
@@ -3061,12 +3081,16 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "world",
             "type": "world"
           }
         ]
       },
-      "path": "~/Effects/Procedures"
+      "path": "~/Effects"
     }
   ],
   "variable_elements": [
@@ -3229,8 +3253,8 @@
       "item.malice_or_mercy.amethyst_armor_leggings": "Amethyst Leggings",
       "item.minecraft.potion.effect.corruption_potion": "Potion of Corruption",
       "death.attack.execution": "%s was marked for execution",
-      "item.malice_or_mercy.sapphire_armour_helmet": "Sapphire Helmet",
       "item.malice_or_mercy.amethyst_coin": "Amethyst Coin",
+      "item.malice_or_mercy.sapphire_armour_helmet": "Sapphire Helmet",
       "item.malice_or_mercy.amethyst_armor_boots": "Amethyst Boots",
       "subtitles.entity.corrupt_fiend.step": "",
       "item.malice_or_mercy.ruby_pickaxe": "Ruby Pickaxe",

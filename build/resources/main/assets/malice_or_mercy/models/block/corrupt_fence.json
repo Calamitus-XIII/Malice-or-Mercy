@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "malice_or_mercy:block/corrupt_planks",
-    "particle": "malice_or_mercy:block/corrupt_planks"
-  },
-  "render_type": "solid"
-}

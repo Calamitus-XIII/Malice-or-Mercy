@@ -1,9 +1,0 @@
-{
-  "parent": "block/cube_bottom_top",
-  "textures": {
-    "bottom": "malice_or_mercy:block/corrupt_planks",
-    "top": "malice_or_mercy:block/corrupt_planks",
-    "side": "malice_or_mercy:block/corrupt_planks"
-  },
-  "render_type": "solid"
-}

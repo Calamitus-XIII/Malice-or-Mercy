@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_fence_gate",
-  "textures": {
-    "texture": "malice_or_mercy:block/corrupt_planks"
-  },
-  "render_type": "solid"
-}
