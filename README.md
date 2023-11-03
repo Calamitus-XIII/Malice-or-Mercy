@@ -48,4 +48,4 @@ This mod is released under the [Malice or Mercy License](LICENSE), which is a pe
 
 If you encounter any issues or have questions about Malice or Mercy, please create a new issue on the [GitHub repository](https://github.com/your-username/malice-or-mercy/issues). We're here to help!
 
-Enjoy your journey in the world of Malice or Mercy! May you choose wisely between malice and mercy in your adventures.
+Enjoy your journey in the world of Malice or Mercy! May you choose wisely between malice and mercy in your adventures!
