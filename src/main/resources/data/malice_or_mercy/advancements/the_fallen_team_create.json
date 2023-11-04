@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "the_fallen_team_create": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "function": "malice_or_mercy:the_fallen_team_set"
+  }
+}

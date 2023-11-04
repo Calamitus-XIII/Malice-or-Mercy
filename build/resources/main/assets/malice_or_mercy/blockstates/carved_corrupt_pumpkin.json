@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "malice_or_mercy:block/carved_corrupt_pumpkin"
+    },
+    "facing=east": {
+      "model": "malice_or_mercy:block/carved_corrupt_pumpkin",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "malice_or_mercy:block/carved_corrupt_pumpkin",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "malice_or_mercy:block/carved_corrupt_pumpkin",
+      "y": 270
+    }
+  }
+}

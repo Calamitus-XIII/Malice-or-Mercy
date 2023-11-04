@@ -1,7 +1,10 @@
 {
   "replace": false,
   "values": [
+    "malice_or_mercy:corrupt_stone_bricks",
+    "malice_or_mercy:corrupt_nylium",
     "malice_or_mercy:corrupt_stone",
-    "malice_or_mercy:corrupt_nylium"
+    "malice_or_mercy:corrupt_sand",
+    "malice_or_mercy:corrupt_sandstone"
   ]
 }

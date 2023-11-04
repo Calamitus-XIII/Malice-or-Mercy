@@ -6,6 +6,9 @@
     "malice_or_mercy:corrupt_stairs",
     "malice_or_mercy:corrupt_slab",
     "malice_or_mercy:corrupt_fence",
-    "malice_or_mercy:corrupt_fence_gate"
+    "malice_or_mercy:corrupt_fence_gate",
+    "malice_or_mercy:corrupt_pumpkin",
+    "malice_or_mercy:carved_corrupt_pumpkin",
+    "malice_or_mercy:corrupt_pumpkin_lantern"
   ]
 }

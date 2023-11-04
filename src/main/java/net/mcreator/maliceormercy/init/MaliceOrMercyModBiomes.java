@@ -58,6 +58,10 @@ public class MaliceOrMercyModBiomes {
 							Climate.Parameter.span(-0.5f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.span(0.3f, 2f), Climate.Parameter.span(-0.5f, 0.5f), Climate.Parameter.point(1.0f),
 							Climate.Parameter.span(-0.5f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 2f), Climate.Parameter.span(0f, 2f), Climate.Parameter.span(0.3f, 2f), Climate.Parameter.span(-1f, 0f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 0f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_dessert")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0f, 2f), Climate.Parameter.span(0f, 2f), Climate.Parameter.span(0.3f, 2f), Climate.Parameter.span(-1f, 0f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 0f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_dessert")))));
 					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
@@ -72,6 +76,8 @@ public class MaliceOrMercyModBiomes {
 								MaliceOrMercyModBlocks.CORRUPT_STONE.get().defaultBlockState(), MaliceOrMercyModBlocks.CORRUPT_STONE.get().defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_forest")), MaliceOrMercyModBlocks.CORRUPT_NYLIUM.get().defaultBlockState(),
 								MaliceOrMercyModBlocks.CORRUPT_STONE.get().defaultBlockState(), MaliceOrMercyModBlocks.CORRUPT_STONE.get().defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("malice_or_mercy", "corrupt_dessert")), MaliceOrMercyModBlocks.CORRUPT_SAND.get().defaultBlockState(),
+								MaliceOrMercyModBlocks.CORRUPT_SANDSTONE.get().defaultBlockState(), MaliceOrMercyModBlocks.CORRUPT_SANDSTONE.get().defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());

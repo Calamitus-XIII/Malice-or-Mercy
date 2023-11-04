@@ -8,11 +8,14 @@
       },
       {
         "value": "CUSTOM:CorruptForest"
+      },
+      {
+        "value": "CUSTOM:CorruptDessert"
       }
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:CorruptStone"
+      "value": "CUSTOM:CorruptStoneBricks"
     },
     "fluidBlock": {
       "value": "CUSTOM:LiquidCorruption"
@@ -29,7 +32,7 @@
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "portalFrame": {
-      "value": "Blocks.CRYING_OBSIDIAN"
+      "value": "CUSTOM:CorruptStoneBricks"
     },
     "portalParticles": {
       "value": "PORTAL"

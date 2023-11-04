@@ -134,7 +134,177 @@ Adding Libraries to Inheritance
 Reading Input: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptBerryVineBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptBerryVineBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptBerryVineBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPlanksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPlanksBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptNyliumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptNyliumBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptLogBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptLogBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/BlockOfSapphireBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/BlockOfSapphireBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptLogBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptLogBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptLogBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/state/BlockBehaviour/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/ChiseledCorruptSandstoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/ChiseledCorruptSandstoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/BlockOfRubyBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/BlockOfRubyBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFenceBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFenceGateBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/state/BlockBehaviour/tick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: tick -> m_213897_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptFireBlock/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z: canBeReplaced -> m_6864_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSandstoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSandstoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSproutsBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSproutsBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSproutsBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptRootsBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptRootsBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptRootsBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptRootsBlock/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z: canBeReplaced -> m_6864_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStoneBricksBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStoneBricksBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStairsBlock/getExplosionResistance()F from net/minecraft/world/level/block/StairBlock/getExplosionResistance()F: getExplosionResistance -> m_7325_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStairsBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z from net/minecraft/world/level/block/StairBlock/isRandomlyTicking(Lnet/minecraft/world/level/block/state/BlockState;)Z: isRandomlyTicking -> m_6724_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStairsBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CutCorruptSandstoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CutCorruptSandstoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSproutsBlock/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z from net/minecraft/world/level/block/state/BlockBehaviour/canBeReplaced(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/item/context/BlockPlaceContext;)Z: canBeReplaced -> m_6864_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptScaleBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptScaleBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSandBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSandBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptStoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/DeepslateSapphireOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/CorruptSlabBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/RubyOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/DeepslateRubyOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/LiquidCorruptionBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/state/BlockBehaviour/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/SapphireOreBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/SmoothCorruptSandstoneBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/SmoothCorruptSandstoneBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/TheCorruptionPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V from net/minecraft/world/level/block/NetherPortalBlock/entityInside(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V: entityInside -> m_7892_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/TheCorruptionPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/animateTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: animateTick -> m_214162_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/TheCorruptionPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/NetherPortalBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/mcreator/maliceormercy/block/TheCorruptionPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V from net/minecraft/world/level/block/NetherPortalBlock/randomTick(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V: randomTick -> m_213898_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelhoglin/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelhoglin/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelwarden/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelwarden/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelwolf/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelwolf/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptBeastRenderer$1/renderType()Lnet/minecraft/client/renderer/RenderType; from net/minecraft/client/renderer/entity/layers/EyesLayer/renderType()Lnet/minecraft/client/renderer/RenderType;: renderType -> m_5708_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptFiendRenderer$1/renderType()Lnet/minecraft/client/renderer/RenderType; from net/minecraft/client/renderer/entity/layers/EyesLayer/renderType()Lnet/minecraft/client/renderer/RenderType;: renderType -> m_5708_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptBeastRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptFiendRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer$1/renderType()Lnet/minecraft/client/renderer/RenderType; from net/minecraft/client/renderer/entity/layers/EyesLayer/renderType()Lnet/minecraft/client/renderer/RenderType;: renderType -> m_5708_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelranged_biped/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelranged_biped/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modeltest_ranged_biped/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelranged_biped_wo_crossbow/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modeltest_ranged_biped/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/model/Modelranged_biped_wo_crossbow/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer$1/renderType()Lnet/minecraft/client/renderer/RenderType; from net/minecraft/client/renderer/entity/layers/EyesLayer/renderType()Lnet/minecraft/client/renderer/RenderType;: renderType -> m_5708_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/Entity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V: awardKillScore -> m_5993_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/FallenArcherRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/Entity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V: awardKillScore -> m_5993_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/Entity/awardKillScore(Lnet/minecraft/world/entity/Entity;ILnet/minecraft/world/damagesource/DamageSource;)V: awardKillScore -> m_5993_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V from net/minecraft/world/entity/monster/RangedAttackMob/performRangedAttack(Lnet/minecraft/world/entity/LivingEntity;F)V: performRangedAttack -> m_6504_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/FallenSwordsmanRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/entity/Entity/playStepSound(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: playStepSound -> m_7355_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getAmbientSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/Mob/getAmbientSound()Lnet/minecraft/sounds/SoundEvent;: getAmbientSound -> m_7515_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/maliceormercy/client/renderer/HumanRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/BleedEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/PoisonAspectEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/WitherAspectEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/LifestealEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/FormidableEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/ExecutionEnchantment/isTreasureOnly()Z from net/minecraft/world/item/enchantment/Enchantment/isTreasureOnly()Z: isTreasureOnly -> m_6591_
+Conflicting propagated mapping for net/mcreator/maliceormercy/enchantment/CorruptAspectEnchantment/getMaxLevel()I from net/minecraft/world/item/enchantment/Enchantment/getMaxLevel()I: getMaxLevel -> m_6586_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptBeastEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptHoundEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptSpiderEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/CorruptFiendEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenArcherEntity$2/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/RangedAttackGoal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/FallenSwordsmanEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/mcreator/maliceormercy/entity/HumanEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid; from net/minecraft/world/level/material/FlowingFluid/getFlowing()Lnet/minecraft/world/level/material/Fluid;: getFlowing -> m_5615_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/material/Fluid/createLegacyBlock(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/world/level/block/state/BlockState;: createLegacyBlock -> m_5804_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I from net/minecraft/world/level/material/Fluid/getTickDelay(Lnet/minecraft/world/level/LevelReader;)I: getTickDelay -> m_6718_
@@ -148,9 +318,170 @@ Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/g
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V from net/minecraft/world/level/material/FlowingFluid/beforeDestroyingBlock(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V: beforeDestroyingBlock -> m_7456_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/getBucket()Lnet/minecraft/world/item/Item; from net/minecraft/world/level/material/Fluid/getBucket()Lnet/minecraft/world/item/Item;: getBucket -> m_6859_
 Conflicting propagated mapping for net/minecraftforge/fluids/ForgeFlowingFluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z from net/minecraft/world/level/material/Fluid/canBeReplacedWith(Lnet/minecraft/world/level/material/FluidState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/material/Fluid;Lnet/minecraft/core/Direction;)Z: canBeReplacedWith -> m_5486_
-Conflicting propagated mapping for net/minecraft/world/entity/boss/enderdragon/EnderDragon/setId(I)V from net/minecraft/world/entity/Entity/setId(I)V: setId -> m_20234_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions; from net/minecraft/world/level/material/Fluid/getDripParticle()Lnet/minecraft/core/particles/ParticleOptions;: getDripParticle -> m_7792_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid$Flowing/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid$Flowing/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/material/FlowingFluid/createFluidStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createFluidStateDefinition -> m_7180_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid$Flowing/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid$Source/getAmount(Lnet/minecraft/world/level/material/FluidState;)I from net/minecraft/world/level/material/FlowingFluid/getAmount(Lnet/minecraft/world/level/material/FluidState;)I: getAmount -> m_7430_
+Conflicting propagated mapping for net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid$Source/isSource(Lnet/minecraft/world/level/material/FluidState;)Z from net/minecraft/world/level/material/Fluid/isSource(Lnet/minecraft/world/level/material/FluidState;)Z: isSource -> m_7444_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/features/ores/RubyOreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/features/ores/SapphireOreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/features/ores/DeepslateRubyOreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/features/ores/DeepslateSapphireOreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/features/ores/CorruptFireFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/OreFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/FearMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/FearMobEffect/getDescriptionId()Ljava/lang/String; from net/minecraft/world/effect/MobEffect/getDescriptionId()Ljava/lang/String;: getDescriptionId -> m_19481_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/FearMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/MarkedMobEffect/getDescriptionId()Ljava/lang/String; from net/minecraft/world/effect/MobEffect/getDescriptionId()Ljava/lang/String;: getDescriptionId -> m_19481_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/MarkedMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/MarkedMobEffect/addAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V from net/minecraft/world/effect/MobEffect/addAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V: addAttributeModifiers -> m_6385_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/MarkedMobEffect/removeAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V from net/minecraft/world/effect/MobEffect/removeAttributeModifiers(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V: removeAttributeModifiers -> m_6386_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/BleedingMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/BleedingMobEffect/getDescriptionId()Ljava/lang/String; from net/minecraft/world/effect/MobEffect/getDescriptionId()Ljava/lang/String;: getDescriptionId -> m_19481_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/BleedingMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/CorruptionMobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V from net/minecraft/world/effect/MobEffect/applyEffectTick(Lnet/minecraft/world/entity/LivingEntity;I)V: applyEffectTick -> m_6742_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/CorruptionMobEffect/getDescriptionId()Ljava/lang/String; from net/minecraft/world/effect/MobEffect/getDescriptionId()Ljava/lang/String;: getDescriptionId -> m_19481_
+Conflicting propagated mapping for net/mcreator/maliceormercy/potion/CorruptionMobEffect/isDurationEffectTick(II)Z from net/minecraft/world/effect/MobEffect/isDurationEffectTick(II)Z: isDurationEffectTick -> m_6584_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystArmorItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystPickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
-Conflicting propagated mapping for net/minecraft/world/entity/animal/Fox/dropEquipment()V from net/minecraft/world/entity/LivingEntity/dropEquipment()V: dropEquipment -> m_5907_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/AmethystSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/CorruptFleshItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/DiamondAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedAmethystAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedAmethystAppleItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedDiamondAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedRubyAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedDiamondAppleItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedSapphireAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedSapphireAppleItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/EnchantedRubyAppleItem/isFoil(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/item/Item/isFoil(Lnet/minecraft/world/item/ItemStack;)Z: isFoil -> m_5812_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/TheCorruptionItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyArmourItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAppleItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubySwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireArmourItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireAxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireHoeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/RubyPickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphirePickaxeItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireShovelItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/maliceormercy/item/SapphireSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/maliceormercy/network/MaliceOrMercyModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for net/mcreator/maliceormercy/network/MaliceOrMercyModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/BleedingOnEffectActiveTickProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/CorruptFireEntityCollidesInTheBlockProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/CorruptionOnEffectActiveTickProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/FearActiveTickConditionProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/LiquidCorruptionMobplayerCollidesBlockProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/procedures/MarkedEffectExpiresProcedure$1/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component; from net/minecraft/world/damagesource/DamageSource/getLocalizedDeathMessage(Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/network/chat/Component;: getLocalizedDeathMessage -> m_6157_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/dimension/TheCorruptionDimension$DimensionSpecialEffectsHandler$1/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3; from net/minecraft/client/renderer/DimensionSpecialEffects/getBrightnessDependentFogColor(Lnet/minecraft/world/phys/Vec3;F)Lnet/minecraft/world/phys/Vec3;: getBrightnessDependentFogColor -> m_5927_
+Conflicting propagated mapping for net/mcreator/maliceormercy/world/dimension/TheCorruptionDimension$DimensionSpecialEffectsHandler$1/isFoggyAt(II)Z from net/minecraft/client/renderer/DimensionSpecialEffects/isFoggyAt(II)Z: isFoggyAt -> m_5781_
+Conflicting propagated mapping for net/minecraft/world/entity/boss/enderdragon/EnderDragon/setId(I)V from net/minecraft/world/entity/Entity/setId(I)V: setId -> m_20234_
 Adding extras
 Sorting
 Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\build\reobfJar\output.jar
@@ -163,6 +494,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/blockstates/
   assets/malice_or_mercy/blockstates/block_of_ruby.json
   assets/malice_or_mercy/blockstates/block_of_sapphire.json
+  assets/malice_or_mercy/blockstates/carved_corrupt_pumpkin.json
+  assets/malice_or_mercy/blockstates/chiseled_corrupt_sandstone.json
   assets/malice_or_mercy/blockstates/corrupt_berry_vine.json
   assets/malice_or_mercy/blockstates/corrupt_fence.json
   assets/malice_or_mercy/blockstates/corrupt_fence_gate.json
@@ -170,16 +503,24 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/blockstates/corrupt_log.json
   assets/malice_or_mercy/blockstates/corrupt_nylium.json
   assets/malice_or_mercy/blockstates/corrupt_planks.json
+  assets/malice_or_mercy/blockstates/corrupt_pumpkin.json
+  assets/malice_or_mercy/blockstates/corrupt_pumpkin_lantern.json
   assets/malice_or_mercy/blockstates/corrupt_roots.json
+  assets/malice_or_mercy/blockstates/corrupt_sand.json
+  assets/malice_or_mercy/blockstates/corrupt_sandstone.json
   assets/malice_or_mercy/blockstates/corrupt_scale.json
   assets/malice_or_mercy/blockstates/corrupt_slab.json
+  assets/malice_or_mercy/blockstates/corrupt_sprouts.json
   assets/malice_or_mercy/blockstates/corrupt_stairs.json
   assets/malice_or_mercy/blockstates/corrupt_stone.json
+  assets/malice_or_mercy/blockstates/corrupt_stone_bricks.json
+  assets/malice_or_mercy/blockstates/cut_corrupt_sandstone.json
   assets/malice_or_mercy/blockstates/deepslate_ruby_ore.json
   assets/malice_or_mercy/blockstates/deepslate_sapphire_ore.json
   assets/malice_or_mercy/blockstates/liquid_corruption.json
   assets/malice_or_mercy/blockstates/ruby_ore.json
   assets/malice_or_mercy/blockstates/sapphire_ore.json
+  assets/malice_or_mercy/blockstates/smooth_corrupt_sandstone.json
   assets/malice_or_mercy/blockstates/the_corruption_portal.json
   assets/malice_or_mercy/lang/
   assets/malice_or_mercy/lang/en_us.json
@@ -187,6 +528,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/block/
   assets/malice_or_mercy/models/block/block_of_ruby.json
   assets/malice_or_mercy/models/block/block_of_sapphire.json
+  assets/malice_or_mercy/models/block/carved_corrupt_pumpkin.json
+  assets/malice_or_mercy/models/block/chiseled_corrupt_sandstone.json
   assets/malice_or_mercy/models/block/corrupt_berry_vine.json
   assets/malice_or_mercy/models/block/corrupt_fence.json
   assets/malice_or_mercy/models/block/corrupt_fence_gate.json
@@ -199,20 +542,28 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/block/corrupt_log.json
   assets/malice_or_mercy/models/block/corrupt_nylium.json
   assets/malice_or_mercy/models/block/corrupt_planks.json
+  assets/malice_or_mercy/models/block/corrupt_pumpkin.json
+  assets/malice_or_mercy/models/block/corrupt_pumpkin_lantern.json
   assets/malice_or_mercy/models/block/corrupt_roots.json
+  assets/malice_or_mercy/models/block/corrupt_sand.json
+  assets/malice_or_mercy/models/block/corrupt_sandstone.json
   assets/malice_or_mercy/models/block/corrupt_scale.json
   assets/malice_or_mercy/models/block/corrupt_slab.json
   assets/malice_or_mercy/models/block/corrupt_slab_full.json
   assets/malice_or_mercy/models/block/corrupt_slab_top.json
+  assets/malice_or_mercy/models/block/corrupt_sprouts.json
   assets/malice_or_mercy/models/block/corrupt_stairs.json
   assets/malice_or_mercy/models/block/corrupt_stairs_inner.json
   assets/malice_or_mercy/models/block/corrupt_stairs_outer.json
   assets/malice_or_mercy/models/block/corrupt_stone.json
+  assets/malice_or_mercy/models/block/corrupt_stone_bricks.json
+  assets/malice_or_mercy/models/block/cut_corrupt_sandstone.json
   assets/malice_or_mercy/models/block/deepslate_ruby_ore.json
   assets/malice_or_mercy/models/block/deepslate_sapphire_ore.json
   assets/malice_or_mercy/models/block/liquid_corruption.json
   assets/malice_or_mercy/models/block/ruby_ore.json
   assets/malice_or_mercy/models/block/sapphire_ore.json
+  assets/malice_or_mercy/models/block/smooth_corrupt_sandstone.json
   assets/malice_or_mercy/models/block/the_corruption_portal_ew.json
   assets/malice_or_mercy/models/block/the_corruption_portal_ns.json
   assets/malice_or_mercy/models/item/
@@ -229,6 +580,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/item/amethyst_sword.json
   assets/malice_or_mercy/models/item/block_of_ruby.json
   assets/malice_or_mercy/models/item/block_of_sapphire.json
+  assets/malice_or_mercy/models/item/carved_corrupt_pumpkin.json
+  assets/malice_or_mercy/models/item/chiseled_corrupt_sandstone.json
   assets/malice_or_mercy/models/item/copper_coin.json
   assets/malice_or_mercy/models/item/corrupt_beast_spawn_egg.json
   assets/malice_or_mercy/models/item/corrupt_berries.json
@@ -246,13 +599,21 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/item/corrupt_nylium.json
   assets/malice_or_mercy/models/item/corrupt_planks.json
   assets/malice_or_mercy/models/item/corrupt_powder.json
+  assets/malice_or_mercy/models/item/corrupt_pumpkin.json
+  assets/malice_or_mercy/models/item/corrupt_pumpkin_lantern.json
   assets/malice_or_mercy/models/item/corrupt_roots.json
+  assets/malice_or_mercy/models/item/corrupt_sand.json
+  assets/malice_or_mercy/models/item/corrupt_sandstone.json
   assets/malice_or_mercy/models/item/corrupt_scale.json
   assets/malice_or_mercy/models/item/corrupt_slab.json
   assets/malice_or_mercy/models/item/corrupt_spider_spawn_egg.json
+  assets/malice_or_mercy/models/item/corrupt_sprouts.json
   assets/malice_or_mercy/models/item/corrupt_stairs.json
   assets/malice_or_mercy/models/item/corrupt_stone.json
-  assets/malice_or_mercy/models/item/corrupt_tormentor_spawn_egg.json
+  assets/malice_or_mercy/models/item/corrupt_stone_bricks.json
+  assets/malice_or_mercy/models/item/crossbow.mtl
+  assets/malice_or_mercy/models/item/crossbow.obj
+  assets/malice_or_mercy/models/item/cut_corrupt_sandstone.json
   assets/malice_or_mercy/models/item/deepslate_ruby_ore.json
   assets/malice_or_mercy/models/item/deepslate_sapphire_ore.json
   assets/malice_or_mercy/models/item/diamond_apple.json
@@ -262,6 +623,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/item/enchanted_diamond_apple.json
   assets/malice_or_mercy/models/item/enchanted_ruby_apple.json
   assets/malice_or_mercy/models/item/enchanted_sapphire_apple.json
+  assets/malice_or_mercy/models/item/fallen_archer_spawn_egg.json
+  assets/malice_or_mercy/models/item/fallen_swordsman_spawn_egg.json
   assets/malice_or_mercy/models/item/gold_coin.json
   assets/malice_or_mercy/models/item/human_spawn_egg.json
   assets/malice_or_mercy/models/item/liquid_corruption_bucket.json
@@ -294,10 +657,25 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/models/item/sapphire_shovel.json
   assets/malice_or_mercy/models/item/sapphire_sword.json
   assets/malice_or_mercy/models/item/silver_coin.json
+  assets/malice_or_mercy/models/item/smooth_corrupt_sandstone.json
   assets/malice_or_mercy/models/item/snapped_corrupt_bone.json
   assets/malice_or_mercy/models/item/the_corruption.json
   assets/malice_or_mercy/sounds.json
   assets/malice_or_mercy/sounds/
+  assets/malice_or_mercy/sounds/corrupt_beast_death1.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_death2.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_death3.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_hurt1.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_hurt2.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_hurt3.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_idle1.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_idle2.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_idle3.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_step1.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_step2.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_step3.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_step4.ogg
+  assets/malice_or_mercy/sounds/corrupt_beast_step5.ogg
   assets/malice_or_mercy/sounds/corrupt_fiend.death.ogg
   assets/malice_or_mercy/sounds/corrupt_fiend.hurt1.ogg
   assets/malice_or_mercy/sounds/corrupt_fiend.hurt2.ogg
@@ -322,6 +700,17 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/sounds/corrupt_hound.step3.ogg
   assets/malice_or_mercy/sounds/corrupt_hound.step4.ogg
   assets/malice_or_mercy/sounds/corrupt_hound.step5.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_death1.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_death2.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_hurt1.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_hurt2.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_hurt3.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_idle1.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_idle2.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_idle3.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_step1.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_step2.ogg
+  assets/malice_or_mercy/sounds/corrupt_spider_step3.ogg
   assets/malice_or_mercy/sounds/equip_amethyst1.ogg
   assets/malice_or_mercy/sounds/equip_amethyst2.ogg
   assets/malice_or_mercy/sounds/equip_amethyst3.ogg
@@ -343,6 +732,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/sounds/marked_execute.ogg
   assets/malice_or_mercy/textures/
   assets/malice_or_mercy/textures/block/
+  assets/malice_or_mercy/textures/block/carved_corrupt_pumpkin.png
+  assets/malice_or_mercy/textures/block/chiseled_corrupt_sandstone.png
   assets/malice_or_mercy/textures/block/corrupt_berry_vines.png
   assets/malice_or_mercy/textures/block/corrupt_fire.png
   assets/malice_or_mercy/textures/block/corrupt_fire.png.mcmeta
@@ -353,12 +744,25 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/textures/block/corrupt_planks.png
   assets/malice_or_mercy/textures/block/corrupt_portal.png
   assets/malice_or_mercy/textures/block/corrupt_portal.png.mcmeta
+  assets/malice_or_mercy/textures/block/corrupt_pumpkin_bottom.png
+  assets/malice_or_mercy/textures/block/corrupt_pumpkin_lantern.png
+  assets/malice_or_mercy/textures/block/corrupt_pumpkin_side.png
+  assets/malice_or_mercy/textures/block/corrupt_pumpkin_top.png
+  assets/malice_or_mercy/textures/block/corrupt_quicksand.png
+  assets/malice_or_mercy/textures/block/corrupt_quicksand1.png
   assets/malice_or_mercy/textures/block/corrupt_roots.png
+  assets/malice_or_mercy/textures/block/corrupt_sand.png
+  assets/malice_or_mercy/textures/block/corrupt_sandstone.png
+  assets/malice_or_mercy/textures/block/corrupt_sandstone_bottom.png
+  assets/malice_or_mercy/textures/block/corrupt_sandstone_top.png
   assets/malice_or_mercy/textures/block/corrupt_scale.png
   assets/malice_or_mercy/textures/block/corrupt_scale.png.mcmeta
   assets/malice_or_mercy/textures/block/corrupt_scale1.png
   assets/malice_or_mercy/textures/block/corrupt_scale1.png.mcmeta
+  assets/malice_or_mercy/textures/block/corrupt_sprouts.png
   assets/malice_or_mercy/textures/block/corrupt_stone.png
+  assets/malice_or_mercy/textures/block/corrupt_stone_bricks.png
+  assets/malice_or_mercy/textures/block/cut_corrupt_sandstone.png
   assets/malice_or_mercy/textures/block/deepslate_ruby_ore.png
   assets/malice_or_mercy/textures/block/deepslate_sapphire_ore.png
   assets/malice_or_mercy/textures/block/liquid_corruption_flow_strip.png
@@ -380,6 +784,10 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/textures/entities/corrupt_spider_e.png
   assets/malice_or_mercy/textures/entities/corrupt_tormentor.png
   assets/malice_or_mercy/textures/entities/corrupt_tormentor_e.png
+  assets/malice_or_mercy/textures/entities/fallen_archer.png
+  assets/malice_or_mercy/textures/entities/fallen_archer_-_copy1.png
+  assets/malice_or_mercy/textures/entities/fallen_champion.png
+  assets/malice_or_mercy/textures/entities/fallen_swordsman.png
   assets/malice_or_mercy/textures/entities/human.png
   assets/malice_or_mercy/textures/entities/skeleton_wolf__28texture_29.png
   assets/malice_or_mercy/textures/item/
@@ -403,6 +811,7 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/textures/item/corrupt_dust.png
   assets/malice_or_mercy/textures/item/corrupt_flesh.png
   assets/malice_or_mercy/textures/item/corrupt_powder.png
+  assets/malice_or_mercy/textures/item/crossbow_arrow.png
   assets/malice_or_mercy/textures/item/diamond_apple.png
   assets/malice_or_mercy/textures/item/diamond_coin.png
   assets/malice_or_mercy/textures/item/emerald_apple.png
@@ -456,12 +865,17 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   assets/malice_or_mercy/textures/screens/corrupt_fire.png
   data/
   data/malice_or_mercy/
+  data/malice_or_mercy/advancements/
+  data/malice_or_mercy/advancements/the_corruption_team_create.json
+  data/malice_or_mercy/advancements/the_fallen_team_create.json
   data/malice_or_mercy/dimension/
   data/malice_or_mercy/dimension/the_corruption.json
   data/malice_or_mercy/dimension_type/
   data/malice_or_mercy/dimension_type/the_corruption.json
   data/malice_or_mercy/forge/
   data/malice_or_mercy/forge/biome_modifier/
+  data/malice_or_mercy/forge/biome_modifier/corrupt_dessert_corrupt_pumpkin_generation_biome_modifier.json
+  data/malice_or_mercy/forge/biome_modifier/corrupt_dessert_sprout_generation_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/corrupt_field_tree_generation_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/corrupt_fiend_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/corrupt_fire_biome_modifier.json
@@ -472,8 +886,13 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   data/malice_or_mercy/forge/biome_modifier/corrupt_spider_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/deepslate_ruby_ore_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/deepslate_sapphire_ore_biome_modifier.json
+  data/malice_or_mercy/forge/biome_modifier/fallen_archer_biome_modifier.json
+  data/malice_or_mercy/forge/biome_modifier/fallen_swordsman_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/ruby_ore_biome_modifier.json
   data/malice_or_mercy/forge/biome_modifier/sapphire_ore_biome_modifier.json
+  data/malice_or_mercy/functions/
+  data/malice_or_mercy/functions/the_corruption_team_set.mcfunction
+  data/malice_or_mercy/functions/the_fallen_team_set.mcfunction
   data/malice_or_mercy/loot_tables/
   data/malice_or_mercy/loot_tables/blocks/
   data/malice_or_mercy/loot_tables/blocks/corrupt_berry_vine.json
@@ -535,9 +954,12 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   data/malice_or_mercy/tags/entity_types/corrupt_entity.json
   data/malice_or_mercy/worldgen/
   data/malice_or_mercy/worldgen/biome/
+  data/malice_or_mercy/worldgen/biome/corrupt_dessert.json
   data/malice_or_mercy/worldgen/biome/corrupt_field.json
   data/malice_or_mercy/worldgen/biome/corrupt_forest.json
   data/malice_or_mercy/worldgen/configured_feature/
+  data/malice_or_mercy/worldgen/configured_feature/corrupt_dessert_corrupt_pumpkin_generation.json
+  data/malice_or_mercy/worldgen/configured_feature/corrupt_dessert_sprout_generation.json
   data/malice_or_mercy/worldgen/configured_feature/corrupt_field_tree_generation.json
   data/malice_or_mercy/worldgen/configured_feature/corrupt_fire.json
   data/malice_or_mercy/worldgen/configured_feature/corrupt_fire_generation.json
@@ -549,6 +971,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   data/malice_or_mercy/worldgen/configured_feature/ruby_ore.json
   data/malice_or_mercy/worldgen/configured_feature/sapphire_ore.json
   data/malice_or_mercy/worldgen/placed_feature/
+  data/malice_or_mercy/worldgen/placed_feature/corrupt_dessert_corrupt_pumpkin_generation.json
+  data/malice_or_mercy/worldgen/placed_feature/corrupt_dessert_sprout_generation.json
   data/malice_or_mercy/worldgen/placed_feature/corrupt_field_tree_generation.json
   data/malice_or_mercy/worldgen/placed_feature/corrupt_fire.json
   data/malice_or_mercy/worldgen/placed_feature/corrupt_fire_generation.json
@@ -566,6 +990,7 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   data/minecraft/tags/blocks/mineable/axe.json
   data/minecraft/tags/blocks/mineable/hoe.json
   data/minecraft/tags/blocks/mineable/pickaxe.json
+  data/minecraft/tags/blocks/mineable/shovel.json
   data/minecraft/tags/blocks/overworld_carver_replaceables.json
   net/
   net/mcreator/
@@ -574,6 +999,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   net/mcreator/maliceormercy/block/
   net/mcreator/maliceormercy/block/BlockOfRubyBlock.class
   net/mcreator/maliceormercy/block/BlockOfSapphireBlock.class
+  net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock.class
+  net/mcreator/maliceormercy/block/ChiseledCorruptSandstoneBlock.class
   net/mcreator/maliceormercy/block/CorruptBerryVineBlock.class
   net/mcreator/maliceormercy/block/CorruptFenceBlock.class
   net/mcreator/maliceormercy/block/CorruptFenceGateBlock.class
@@ -581,20 +1008,31 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   net/mcreator/maliceormercy/block/CorruptLogBlock.class
   net/mcreator/maliceormercy/block/CorruptNyliumBlock.class
   net/mcreator/maliceormercy/block/CorruptPlanksBlock.class
+  net/mcreator/maliceormercy/block/CorruptPumpkinBlock.class
+  net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock.class
   net/mcreator/maliceormercy/block/CorruptRootsBlock.class
+  net/mcreator/maliceormercy/block/CorruptSandBlock.class
+  net/mcreator/maliceormercy/block/CorruptSandstoneBlock.class
   net/mcreator/maliceormercy/block/CorruptScaleBlock.class
   net/mcreator/maliceormercy/block/CorruptSlabBlock.class
+  net/mcreator/maliceormercy/block/CorruptSproutsBlock.class
   net/mcreator/maliceormercy/block/CorruptStairsBlock.class
   net/mcreator/maliceormercy/block/CorruptStoneBlock.class
+  net/mcreator/maliceormercy/block/CorruptStoneBricksBlock.class
+  net/mcreator/maliceormercy/block/CutCorruptSandstoneBlock.class
   net/mcreator/maliceormercy/block/DeepslateRubyOreBlock.class
   net/mcreator/maliceormercy/block/DeepslateSapphireOreBlock.class
   net/mcreator/maliceormercy/block/LiquidCorruptionBlock.class
   net/mcreator/maliceormercy/block/RubyOreBlock.class
   net/mcreator/maliceormercy/block/SapphireOreBlock.class
+  net/mcreator/maliceormercy/block/SmoothCorruptSandstoneBlock.class
   net/mcreator/maliceormercy/block/TheCorruptionPortalBlock.class
   net/mcreator/maliceormercy/client/
   net/mcreator/maliceormercy/client/model/
   net/mcreator/maliceormercy/client/model/Modelhoglin.class
+  net/mcreator/maliceormercy/client/model/Modelranged_biped.class
+  net/mcreator/maliceormercy/client/model/Modelranged_biped_wo_crossbow.class
+  net/mcreator/maliceormercy/client/model/Modeltest_ranged_biped.class
   net/mcreator/maliceormercy/client/model/Modelwarden.class
   net/mcreator/maliceormercy/client/model/Modelwolf.class
   net/mcreator/maliceormercy/client/renderer/
@@ -606,8 +1044,8 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer.class
   net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer$1.class
   net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer.class
-  net/mcreator/maliceormercy/client/renderer/CorruptTormentorRenderer$1.class
-  net/mcreator/maliceormercy/client/renderer/CorruptTormentorRenderer.class
+  net/mcreator/maliceormercy/client/renderer/FallenArcherRenderer.class
+  net/mcreator/maliceormercy/client/renderer/FallenSwordsmanRenderer.class
   net/mcreator/maliceormercy/client/renderer/HumanRenderer.class
   net/mcreator/maliceormercy/enchantment/
   net/mcreator/maliceormercy/enchantment/BleedEnchantment.class
@@ -626,8 +1064,11 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   net/mcreator/maliceormercy/entity/CorruptHoundEntity.class
   net/mcreator/maliceormercy/entity/CorruptSpiderEntity$1.class
   net/mcreator/maliceormercy/entity/CorruptSpiderEntity.class
-  net/mcreator/maliceormercy/entity/CorruptTormentorEntity$1.class
-  net/mcreator/maliceormercy/entity/CorruptTormentorEntity.class
+  net/mcreator/maliceormercy/entity/FallenArcherEntity$1.class
+  net/mcreator/maliceormercy/entity/FallenArcherEntity$2.class
+  net/mcreator/maliceormercy/entity/FallenArcherEntity.class
+  net/mcreator/maliceormercy/entity/FallenSwordsmanEntity$1.class
+  net/mcreator/maliceormercy/entity/FallenSwordsmanEntity.class
   net/mcreator/maliceormercy/entity/HumanEntity$1.class
   net/mcreator/maliceormercy/entity/HumanEntity.class
   net/mcreator/maliceormercy/fluid/
@@ -759,6 +1200,7 @@ Writing Output: E:\MCreator\workspaces\test\malice_or_mercy\Malice-or-Mercy\buil
   net/mcreator/maliceormercy/procedures/CorruptFleshPlayerFinishesUsingItemProcedure.class
   net/mcreator/maliceormercy/procedures/CorruptHoundAttackProcedure.class
   net/mcreator/maliceormercy/procedures/CorruptHoundSetsTargetProcedure.class
+  net/mcreator/maliceormercy/procedures/CorruptPumpkinOnBlockRightClickedProcedure.class
   net/mcreator/maliceormercy/procedures/CorruptionActiveTickConditionProcedure.class
   net/mcreator/maliceormercy/procedures/CorruptionOnEffectActiveTickProcedure$1.class
   net/mcreator/maliceormercy/procedures/CorruptionOnEffectActiveTickProcedure.class
