@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "malice_or_mercy:fallen_archer",
+    "weight": 5,
+    "minCount": 4,
+    "maxCount": 4
+  }
+}

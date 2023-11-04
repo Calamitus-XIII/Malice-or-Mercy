@@ -8,10 +8,21 @@
         "type": "minecraft:simple_block",
         "config": {
           "to_place": {
-            "type": "minecraft:simple_state_provider",
-            "state": {
-              "Name": "malice_or_mercy:corrupt_roots"
-            }
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "malice_or_mercy:corrupt_roots"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "malice_or_mercy:corrupt_sprouts"
+                },
+                "weight": 4
+              }
+            ]
           }
         }
       },

@@ -21,9 +21,9 @@ import net.mcreator.maliceormercy.MaliceOrMercyMod;
 @Mod.EventBusSubscriber
 public class MaliceOrMercyModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.FEATURES, MaliceOrMercyMod.MODID);
-	public static final RegistryObject<Feature<?>> CORRUPT_FIRE = REGISTRY.register("corrupt_fire", CorruptFireFeature::new);
 	public static final RegistryObject<Feature<?>> RUBY_ORE = REGISTRY.register("ruby_ore", RubyOreFeature::new);
 	public static final RegistryObject<Feature<?>> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", SapphireOreFeature::new);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_RUBY_ORE = REGISTRY.register("deepslate_ruby_ore", DeepslateRubyOreFeature::new);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_SAPPHIRE_ORE = REGISTRY.register("deepslate_sapphire_ore", DeepslateSapphireOreFeature::new);
+	public static final RegistryObject<Feature<?>> CORRUPT_FIRE = REGISTRY.register("corrupt_fire", CorruptFireFeature::new);
 }

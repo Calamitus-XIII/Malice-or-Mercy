@@ -15,7 +15,7 @@ import java.util.Collections;
 
 public class BlockOfRubyBlock extends Block {
 	public BlockOfRubyBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(5f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f));
 	}
 
 	@Override

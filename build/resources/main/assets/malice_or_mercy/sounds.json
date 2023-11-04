@@ -233,5 +233,143 @@
         "stream": false
       }
     ]
+  },
+  "entity.corrupt_spider.ambient": {
+    "subtitle": "subtitles.entity.corrupt_spider.ambient",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_spider_idle1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_idle2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_spider.step": {
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_spider_step1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_step2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_step3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_spider.hurt": {
+    "subtitle": "subtitles.entity.corrupt_spider.hurt",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_spider_hurt1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_hurt2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_spider.death": {
+    "subtitle": "subtitles.entity.corrupt_spider.death",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_spider_death1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_spider_death2",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_beast.death": {
+    "subtitle": "subtitles.entity.corrupt_beast.death",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_beast_death1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_death2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_death3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_beast.hurt": {
+    "subtitle": "subtitles.entity.corrupt_beast.hurt",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_beast_hurt1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_hurt2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_hurt3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_beast.ambient": {
+    "subtitle": "subtitles.entity.corrupt_beast.ambient",
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_beast_idle1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_idle2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_idle3",
+        "stream": false
+      }
+    ]
+  },
+  "entity.corrupt_beast.step": {
+    "sounds": [
+      {
+        "name": "malice_or_mercy:corrupt_beast_step1",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_step2",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_step3",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_step4",
+        "stream": false
+      },
+      {
+        "name": "malice_or_mercy:corrupt_beast_step5",
+        "stream": false
+      }
+    ]
   }
 }

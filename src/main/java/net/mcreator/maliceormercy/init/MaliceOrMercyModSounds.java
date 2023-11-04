@@ -28,4 +28,13 @@ public class MaliceOrMercyModSounds {
 	public static final RegistryObject<SoundEvent> ITEM_ARMOR_EQUIP_RUBY = REGISTRY.register("item.armor.equip_ruby", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "item.armor.equip_ruby")));
 	public static final RegistryObject<SoundEvent> ITEM_ARMOR_EQUIP_SAPPHIRE = REGISTRY.register("item.armor.equip_sapphire", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "item.armor.equip_sapphire")));
 	public static final RegistryObject<SoundEvent> EFFECT_MARKED_EXECUTE = REGISTRY.register("effect.marked_execute", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "effect.marked_execute")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_SPIDER_AMBIENT = REGISTRY.register("entity.corrupt_spider.ambient",
+			() -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_spider.ambient")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_SPIDER_STEP = REGISTRY.register("entity.corrupt_spider.step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_spider.step")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_SPIDER_HURT = REGISTRY.register("entity.corrupt_spider.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_spider.hurt")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_SPIDER_DEATH = REGISTRY.register("entity.corrupt_spider.death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_spider.death")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_BEAST_DEATH = REGISTRY.register("entity.corrupt_beast.death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_beast.death")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_BEAST_HURT = REGISTRY.register("entity.corrupt_beast.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_beast.hurt")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_BEAST_AMBIENT = REGISTRY.register("entity.corrupt_beast.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_beast.ambient")));
+	public static final RegistryObject<SoundEvent> ENTITY_CORRUPT_BEAST_STEP = REGISTRY.register("entity.corrupt_beast.step", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("malice_or_mercy", "entity.corrupt_beast.step")));
 }

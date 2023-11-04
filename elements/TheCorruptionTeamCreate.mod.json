@@ -1,0 +1,25 @@
+{
+  "_fv": 47,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Team Set The Corruption",
+    "achievementDescription": "Enables default friendly fire to all Corrupt mobs",
+    "achievementIcon": {
+      "value": "CUSTOM:CorruptNylium"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "TheCorruptionTeamSet",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"tick\" x=\"37\" y=\"112\"><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

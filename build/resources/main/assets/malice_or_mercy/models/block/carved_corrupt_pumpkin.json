@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/corrupt_pumpkin_bottom",
+    "up": "malice_or_mercy:block/corrupt_pumpkin_top",
+    "north": "malice_or_mercy:block/carved_corrupt_pumpkin",
+    "east": "malice_or_mercy:block/corrupt_pumpkin_side",
+    "south": "malice_or_mercy:block/corrupt_pumpkin_side",
+    "west": "malice_or_mercy:block/corrupt_pumpkin_side",
+    "particle": "malice_or_mercy:block/corrupt_pumpkin_bottom"
+  },
+  "render_type": "solid"
+}

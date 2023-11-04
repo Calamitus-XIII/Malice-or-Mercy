@@ -1,9 +1,14 @@
 {
   "replace": false,
   "values": [
+    "malice_or_mercy:corrupt_sandstone",
+    "malice_or_mercy:cut_corrupt_sandstone",
+    "malice_or_mercy:chiseled_corrupt_sandstone",
+    "malice_or_mercy:smooth_corrupt_sandstone",
     "malice_or_mercy:ruby_ore",
     "malice_or_mercy:sapphire_ore",
     "malice_or_mercy:deepslate_ruby_ore",
-    "malice_or_mercy:deepslate_sapphire_ore"
+    "malice_or_mercy:deepslate_sapphire_ore",
+    "malice_or_mercy:corrupt_stone_bricks"
   ]
 }

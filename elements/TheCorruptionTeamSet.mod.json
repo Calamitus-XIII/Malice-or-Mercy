@@ -1,0 +1,9 @@
+{
+  "_fv": 47,
+  "_type": "function",
+  "definition": {
+    "code": "team add malice_or_mercy.thecorruption \"The Corruption\"\nteam modify malice_or_mercy.thecorruption friendlyFire false\nteam join malice_or_mercy.thecorruption @e[type=malice_or_mercy:corrupt_fiend]\nteam join malice_or_mercy.thecorruption @e[type=malice_or_mercy:corrupt_hound]\nteam join malice_or_mercy.thecorruption @e[type=malice_or_mercy:corrupt_spider]\nteam join malice_or_mercy.thecorruption @e[type=malice_or_mercy:corrupt_beast]\n\nschedule function malice_or_mercy:the_corruption_team_set 1t",
+    "name": "the_corruption_team_set",
+    "namespace": "mod"
+  }
+}

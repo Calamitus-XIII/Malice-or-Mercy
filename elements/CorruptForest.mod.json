@@ -123,7 +123,7 @@
         },
         "minGroup": 4,
         "maxGroup": 8,
-        "weight": 40,
+        "weight": 20,
         "spawnType": "monster"
       },
       {
@@ -132,7 +132,25 @@
         },
         "minGroup": 4,
         "maxGroup": 4,
-        "weight": 20,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CorruptBeast"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 2,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:CorruptSpider"
+        },
+        "minGroup": 2,
+        "maxGroup": 2,
+        "weight": 10,
         "spawnType": "monster"
       }
     ]

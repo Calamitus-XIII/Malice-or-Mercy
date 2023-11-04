@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "malice_or_mercy:block/corrupt_sprouts",
+    "particle": "malice_or_mercy:block/corrupt_sprouts"
+  },
+  "render_type": "translucent"
+}
