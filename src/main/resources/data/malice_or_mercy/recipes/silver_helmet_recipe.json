@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:silver_ingot"
+    },
+    "1": {
+      "item": "malice_or_mercy:silver_ingot"
+    },
+    "2": {
+      "item": "malice_or_mercy:silver_ingot"
+    },
+    "3": {
+      "item": "malice_or_mercy:silver_ingot"
+    },
+    "5": {
+      "item": "malice_or_mercy:silver_ingot"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:silver_armor_helmet",
+    "count": 1
+  }
+}

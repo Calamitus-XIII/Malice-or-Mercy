@@ -3,6 +3,9 @@ package net.mcreator.maliceormercy.block;
 
 import org.checkerframework.checker.units.qual.s;
 
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -21,8 +24,8 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.util.RandomSource;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.Minecraft;
 
 import net.mcreator.maliceormercy.procedures.CorruptFireUpdateTickProcedure;
 import net.mcreator.maliceormercy.procedures.CorruptFireEntityCollidesInTheBlockProcedure;
@@ -50,6 +53,11 @@ public class CorruptFireBlock extends Block {
 	}
 
 	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return box(0, 0, 0, 16, 1, 16);
+	}
+
+	@Override
 	public boolean canBeReplaced(BlockState state, BlockPlaceContext context) {
 		return context.getItemInHand().getItem() != this.asItem();
 	}
@@ -59,9 +67,11 @@ public class CorruptFireBlock extends Block {
 		return BlockPathTypes.DAMAGE_CAUTIOUS;
 	}
 
+	@OnlyIn(Dist.CLIENT)
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
-		super.tick(blockstate, world, pos, random);
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();

@@ -1,0 +1,4955 @@
+{
+  "mod_elements": [
+    {
+      "name": "WitherAspect",
+      "type": "enchantment",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_aspect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/WitherAspectEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "WitherAspectEnchantment",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_aspect_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/WitherAspectEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/human_spawn_egg.json",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/HumanRenderer.java",
+          "src/main/java/net/mcreator/maliceormercy/entity/HumanEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptionActiveTickCondition",
+      "type": "procedure",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptionActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "CorruptionOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptionOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "Corruption",
+      "type": "potioneffect",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/potion/CorruptionMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "CorruptionPotion",
+      "type": "potion",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_potion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Potions"
+    },
+    {
+      "name": "CorruptAspect",
+      "type": "enchantment",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_aspect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/CorruptAspectEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "CorruptAspectEnchantment",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_aspect_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptAspectEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "PoisonAspect",
+      "type": "enchantment",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_aspect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/PoisonAspectEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "PoisonAspectEnchantment",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_aspect_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/PoisonAspectEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "BleedingActiveTickCondition",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/BleedingActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "BleedingOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/BleedingOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "Bleed",
+      "type": "enchantment",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/BleedEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "BleedingEnchantment",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/BleedingEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "BleedingPotion",
+      "type": "potion",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_potion",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Potions"
+    },
+    {
+      "name": "Lifesteal",
+      "type": "enchantment",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifesteal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/LifestealEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "LifestealEnchantment",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lifesteal_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/LifestealEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "Execution",
+      "type": "enchantment",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execution",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/ExecutionEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "Marked",
+      "type": "potioneffect",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/potion/MarkedMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "MarkedActiveTickCondition",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked_active_tick_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "amplifier",
+            "type": "number"
+          },
+          {
+            "name": "duration",
+            "type": "number"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "MarkedEffectExpires",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "CorruptFiend",
+      "type": "livingentity",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fiend",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fiend_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptFiendEntity.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fiend_spawn_egg.json",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptFiendRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptFiendAttack",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fiend_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFiendAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/EntityEffect"
+    },
+    {
+      "name": "CopperCoin",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CopperCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/silver_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SilverCoinItem.java"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/GoldCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/gold_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "EmeraldCoin",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/emerald_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/EmeraldCoinItem.java"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "DiamondCoin",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/diamond_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/DiamondCoinItem.java"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "AmethystCoin",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "OnyxCoin",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "onyx_coin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/onyx_coin.json",
+          "src/main/java/net/mcreator/maliceormercy/item/OnyxCoinItem.java"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "QuartzCoin",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quartz_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/QuartzCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/quartz_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "RubyCoin",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubyCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "SapphireCoin",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_coin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireCoinItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_coin.json"
+        ]
+      },
+      "path": "~/Items/Currency/Coin"
+    },
+    {
+      "name": "AmethystArmor",
+      "type": "armor",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystArmorItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_chestplate.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_leggings.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_armor_helmet.json"
+        ]
+      },
+      "path": "~/Armour"
+    },
+    {
+      "name": "AmethystSword",
+      "type": "tool",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystSwordItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystAxe",
+      "type": "tool",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_axe.json",
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystAxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystHoe",
+      "type": "tool",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_hoe.json",
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystHoeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystPickaxe",
+      "type": "tool",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystPickaxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmethystShovel",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_shovel.json",
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "MaliceOrMercy",
+      "type": "tab",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "malice_or_mercy",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubyItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby.json"
+        ]
+      },
+      "path": "~/Items/Gems"
+    },
+    {
+      "name": "RubyArmour",
+      "type": "armor",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armour",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubyArmourItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_leggings.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_helmet.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_chestplate.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_armour_boots.json"
+        ]
+      },
+      "path": "~/Armour"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubySwordItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubyAxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/RubyHoeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_pickaxe.json",
+          "src/main/java/net/mcreator/maliceormercy/item/RubyPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_shovel.json",
+          "src/main/java/net/mcreator/maliceormercy/item/RubyShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CorruptFleshPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_flesh_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFleshPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "CorruptFlesh",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_flesh",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptFleshItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_flesh.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "CorruptHound",
+      "type": "livingentity",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_hound",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_hound_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptHoundEntity.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_hound_spawn_egg.json",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptHoundRenderer.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptHoundAttack",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_hound_attack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptHoundAttackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/EntityEffect"
+    },
+    {
+      "name": "CorruptionPotionPotency1",
+      "type": "potion",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruption_potion_potency_1",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Potions"
+    },
+    {
+      "name": "CorruptPotionPotency2",
+      "type": "potion",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_potion_potency_2",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Potions"
+    },
+    {
+      "name": "CorruptHoundSetsTarget",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_hound_sets_target",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptHoundSetsTargetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/EntityEffect"
+    },
+    {
+      "name": "CorruptBeast",
+      "type": "livingentity",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_beast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptBeastRenderer.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_beast_spawn_egg.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_beast_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptBeastEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "Fear",
+      "type": "potioneffect",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/potion/FearMobEffect.java"
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "FearActiveTickCondition",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fear_active_tick_condition",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/FearActiveTickConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "AmethystSwordRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "AmethystHelmetRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "AmethystChestplateRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "AmethystLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "AmethystBootsRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "AmethystAxeRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "AmethystPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "AmethystShovelRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "AmethystHoeRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "RubyHelmetRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "RubyChestplateRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "RubyLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "RubyBootsRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "AmethystApple",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/AmethystAppleItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/amethyst_apple.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "AmethystApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/AmethystApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "RubyApple",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/RubyAppleItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "RubyApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/RubyApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "BlockOfRuby",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/block_of_ruby.json",
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfRubyBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/block_of_ruby.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_ruby.json"
+        ]
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "BlockOfRubyRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_ruby_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/block_of_ruby_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "RubyRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "EnchantedGoldenAppleRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/enchanted_golden_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "AmethystAppleRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/amethyst_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "RubyAppleRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/ruby_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "LiquidCorruption",
+      "type": "fluid",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_corruption",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/fluid/LiquidCorruptionFluid.java",
+          "src/main/java/net/mcreator/maliceormercy/block/LiquidCorruptionBlock.java",
+          "src/main/java/net/mcreator/maliceormercy/item/LiquidCorruptionItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/liquid_corruption.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/liquid_corruption.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/liquid_corruption_bucket.json",
+          "src/main/java/net/mcreator/maliceormercy/fluid/types/LiquidCorruptionFluidType.java"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "LiquidCorruptionMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_corruption_mobplayer_collides_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/LiquidCorruptionMobplayerCollidesBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptStone",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_stone.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stone.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptStoneBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "CorruptNylium",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_nylium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_nylium.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptNyliumBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_nylium.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_nylium.json"
+        ]
+      },
+      "path": "~/Blocks/Ground"
+    },
+    {
+      "name": "TheCorruption",
+      "type": "dimension",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_corruption",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ns.json",
+          "src/main/java/net/mcreator/maliceormercy/item/TheCorruptionItem.java",
+          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionTeleporter.java",
+          "src/main/resources/data/malice_or_mercy/dimension_type/the_corruption.json",
+          "src/main/resources/data/malice_or_mercy/dimension/the_corruption.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/the_corruption.json",
+          "src/main/java/net/mcreator/maliceormercy/block/TheCorruptionPortalBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/the_corruption_portal_ew.json",
+          "src/main/java/net/mcreator/maliceormercy/world/dimension/TheCorruptionDimension.java",
+          "src/main/java/net/mcreator/maliceormercy/world/teleporter/TheCorruptionPortalShape.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/the_corruption_portal.json"
+        ]
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "CorruptField",
+      "type": "biome",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_field",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/biome/corrupt_field.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CorruptFireEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFireEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptFireUpdateTick",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFireUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptFireBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFireBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptFire",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFireBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fire.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fire_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptFireFeature.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fire.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fire.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "CorruptFireOverlayOff",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire_overlay_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFireOverlayOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptFiendLootTable",
+      "type": "loottable",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fiend_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/entities/corrupt_fiend.json"
+        ]
+      },
+      "path": "~/Loot Tables/Entities"
+    },
+    {
+      "name": "CorruptBone",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_bone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_bone.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptBoneItem.java"
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireItem.java"
+        ]
+      },
+      "path": "~/Items/Gems"
+    },
+    {
+      "name": "BlockOfSapphire",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sapphire",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfSapphireBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_sapphire.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/block_of_sapphire.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/block_of_sapphire.json"
+        ]
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "BlockOfSapphireRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_sapphire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/block_of_sapphire_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "SapphireRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "CorruptHoundLootTable",
+      "type": "loottable",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_hound_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/entities/corrupt_hound.json"
+        ]
+      },
+      "path": "~/Loot Tables/Entities"
+    },
+    {
+      "name": "CorruptLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptLogBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_log.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_log.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_log.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptPlanks",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptPlanksBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_planks.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_planks.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_planks.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptPlanksRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptStairs",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptStairsBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_inner.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stairs.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_stairs.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stairs_outer.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptSlab",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSlabBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_slab.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_full.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_slab.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_slab_top.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptFence",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_post.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_inventory.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fence.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fence.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptFenceGate",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_fence_gate.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_wall.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptFenceGateBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_open.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_fence_gate.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate_wall_open.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_fence_gate.json"
+        ]
+      },
+      "path": "~/Blocks/Wood"
+    },
+    {
+      "name": "CorruptStairsRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CraftingTableWithCorruptPlanksRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_table_with_corrupt_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/crafting_table_with_corrupt_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Vanilla Extensions"
+    },
+    {
+      "name": "SticksWithCorruptPlanksRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sticks_with_corrupt_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sticks_with_corrupt_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Vanilla Extensions"
+    },
+    {
+      "name": "ChestWithCorruptPlanksRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_with_corrupt_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/chest_with_corrupt_planks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Vanilla Extensions"
+    },
+    {
+      "name": "CorruptSlabRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_slab_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptFenceRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_fence_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptRoots",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_roots",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptRootsBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_roots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_roots.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_roots.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptRootsGeneration",
+      "type": "feature",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_roots_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_roots_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_roots_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_roots_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptFireGeneration",
+      "type": "feature",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fire_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_fire_generation_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_fire_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_fire_generation.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/ruby_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/block/RubyOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/ruby_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/RubyOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/SapphireOreBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/SapphireOreFeature.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/sapphire_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/sapphire_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "DeepslateRubyOre",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/deepslate_ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_ruby_ore_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/deepslate_ruby_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/DeepslateRubyOreBlock.java",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateRubyOreFeature.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_ruby_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "DeepslateSapphireOre",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/deepslate_sapphire_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/deepslate_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/DeepslateSapphireOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateSapphireOreFeature.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "RubyOreLootTable",
+      "type": "loottable",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/ruby_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "SapphireOreLootTable",
+      "type": "loottable",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/sapphire_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "DeepslateRubyOreLootTable",
+      "type": "loottable",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ruby_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/deepslate_ruby_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "DeepslateSapphireOreLootTable",
+      "type": "loottable",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_sapphire_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/deepslate_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "SapphireArmour",
+      "type": "armor",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armour",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_chestplate.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_leggings.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireArmourItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_armour_helmet.json"
+        ]
+      },
+      "path": "~/Armour"
+    },
+    {
+      "name": "SapphireSword",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_sword.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireSwordItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireAxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SapphireHoe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireHoeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SapphirePickaxe",
+      "type": "tool",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SapphirePickaxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SapphireShovel",
+      "type": "tool",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireShovelItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_shovel.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "SapphireHelmetRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "SapphireChestplateRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "SapphireLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "SapphireBootsRecipe",
+      "type": "recipe",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "CorruptFieldTreeGeneration",
+      "type": "feature",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_field_tree_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_field_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_field_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_field_tree_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptScale",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_scale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_scale.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptScaleBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_scale.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_scale.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptBerries",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_berries",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptBerriesItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_berries.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "CorruptBerryVine",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_berry_vine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_berry_vine.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_berry_vine.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_berry_vine.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptBerryVineBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptBerryVineLootTable",
+      "type": "loottable",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_berry_vine_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/corrupt_berry_vine.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "EntitiesCorrupt",
+      "type": "tag",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entities_corrupt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/tags/entity_types/corrupt_entity.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CorruptForest",
+      "type": "biome",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/biome/corrupt_forest.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_forest_tree.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CorruptForestTreeGeneration",
+      "type": "feature",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_forest_tree_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_forest_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_forest_tree_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_forest_tree_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptDust",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptDustItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_dust.json"
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "CorruptPowder",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_powder.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptPowderItem.java"
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "CorruptPotionRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_potion_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/recipes/brewing/CorruptPotionRecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes/Brewing"
+    },
+    {
+      "name": "CorruptPotionPotency1Recipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_potion_potency_1_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/recipes/brewing/CorruptPotionPotency1RecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes/Brewing"
+    },
+    {
+      "name": "CorruptPotionPotency2Recipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_potion_potency_2_recipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/recipes/brewing/CorruptPotionPotency2RecipeBrewingRecipe.java"
+        ]
+      },
+      "path": "~/Recipes/Brewing"
+    },
+    {
+      "name": "CorruptFiendThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_fiend_this_entity_kills_another_one",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptFiendThisEntityKillsAnotherOneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities/EntityEffect"
+    },
+    {
+      "name": "SnappedCorruptBone",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snapped_corrupt_bone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/SnappedCorruptBoneItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/snapped_corrupt_bone.json"
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "SnappedCorruptBoneRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snapped_corrupt_bone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/snapped_corrupt_bone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "CorruptIgniterRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_igniter_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "CorruptSpider",
+      "type": "livingentity",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_spider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/CorruptSpiderRenderer.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_spider_spawn_egg.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_spider_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/CorruptSpiderEntity.java"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "CorruptBoneShard",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_bone_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_bone_shard.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CorruptBoneShardItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Formidable",
+      "type": "enchantment",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formidable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/enchantment/FormidableEnchantment.java"
+        ]
+      },
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "FormidableEnchantment",
+      "type": "procedure",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "formidable_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/FormidableEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "EntityFearInfliction",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "entity_fear_infliction",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/EntityFearInflictionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Entities/EntityEffect"
+    },
+    {
+      "name": "EnchantedAmethystApple",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_amethyst_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/EnchantedAmethystAppleItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_amethyst_apple.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "EnchantedAmethystApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_amethyst_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/EnchantedAmethystApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "EnchantedRubyApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_ruby_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/EnchantedRubyApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "EnchantedRubyApple",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_ruby_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_ruby_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/EnchantedRubyAppleItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SapphireApple",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/sapphire_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SapphireAppleItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "SapphireApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/SapphireApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "EnchantedSapphireApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_sapphire_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/EnchantedSapphireApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "EnchantedSapphireApple",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_sapphire_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/EnchantedSapphireAppleItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_sapphire_apple.json"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "DiamondApple",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/diamond_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/DiamondAppleItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "EnchantedDiamondApple",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_diamond_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/enchanted_diamond_apple.json",
+          "src/main/java/net/mcreator/maliceormercy/item/EnchantedDiamondAppleItem.java"
+        ]
+      },
+      "path": "~/Items/Food"
+    },
+    {
+      "name": "DiamondApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/DiamondApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "EnchantedDiamondApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_diamond_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/EnchantedDiamondApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items/Food/Procedures"
+    },
+    {
+      "name": "SapphireAppleRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "DiamondAppleRecipe",
+      "type": "recipe",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/diamond_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "EnchantedAmethystAppleRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_amethyst_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/enchanted_amethyst_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "EnchantedRubyAppleRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_ruby_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/enchanted_ruby_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "EnchantedSapphireAppleRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_sapphire_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/enchanted_sapphire_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "EnchantedDiamondAppleRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_diamond_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/enchanted_diamond_apple_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "MarkedOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "ExecutionEnchantment",
+      "type": "procedure",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "execution_enchantment",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/ExecutionEnchantmentProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Enchantments/Procedures"
+    },
+    {
+      "name": "MarkedEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "marked_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/MarkedEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects/Procedures"
+    },
+    {
+      "name": "CorruptSand",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sand",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSandBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_sand.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_sand.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_sand.json"
+        ]
+      },
+      "path": "~/Blocks/Ground"
+    },
+    {
+      "name": "CorruptSandstone",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_sandstone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSandstoneBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_sandstone.json"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "CutCorruptSandstone",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_corrupt_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/cut_corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/cut_corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/cut_corrupt_sandstone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CutCorruptSandstoneBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "ChiseledCorruptSandstone",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chiseled_corrupt_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/chiseled_corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/chiseled_corrupt_sandstone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/ChiseledCorruptSandstoneBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/chiseled_corrupt_sandstone.json"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "SmoothCorruptSandstone",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smooth_corrupt_sandstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/smooth_corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/smooth_corrupt_sandstone.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/smooth_corrupt_sandstone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/SmoothCorruptSandstoneBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "CorruptDessert",
+      "type": "biome",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_dessert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/biome/corrupt_dessert.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CorruptSprouts",
+      "type": "block",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sprouts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_sprouts.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_sprouts.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSproutsBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_sprouts.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptDessertSproutGeneration",
+      "type": "feature",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_dessert_sprout_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_dessert_sprout_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_dessert_sprout_generation_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_dessert_sprout_generation.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptPumpkin",
+      "type": "block",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_pumpkin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_pumpkin.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptPumpkinBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_pumpkin.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_pumpkin.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CarvedCorruptPumpkin",
+      "type": "block",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carved_corrupt_pumpkin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/carved_corrupt_pumpkin.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CarvedCorruptPumpkinBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/carved_corrupt_pumpkin.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/carved_corrupt_pumpkin.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptPumpkinLantern",
+      "type": "block",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_pumpkin_lantern",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptPumpkinLanternBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_pumpkin_lantern.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_pumpkin_lantern.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_pumpkin_lantern.json"
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptPumpkinOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_pumpkin_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptPumpkinOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Foliage"
+    },
+    {
+      "name": "CorruptDessertCorruptPumpkinGeneration",
+      "type": "feature",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_dessert_corrupt_pumpkin_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_dessert_corrupt_pumpkin_generation_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_dessert_corrupt_pumpkin_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_dessert_corrupt_pumpkin_generation.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptStoneBricks",
+      "type": "block",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stone_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_stone_bricks.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_stone_bricks.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_stone_bricks.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptStoneBricksBlock.java"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "FallenSwordsman",
+      "type": "livingentity",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_swordsman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/fallen_swordsman_spawn_egg.json",
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/FallenSwordsmanRenderer.java",
+          "src/main/java/net/mcreator/maliceormercy/entity/FallenSwordsmanEntity.java",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/fallen_swordsman_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "FallenArcher",
+      "type": "livingentity",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_archer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/client/renderer/FallenArcherRenderer.java",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/fallen_archer_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/entity/FallenArcherEntity.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/fallen_archer_spawn_egg.json"
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "TheCorruptionTeamCreate",
+      "type": "achievement",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_corruption_team_create",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/advancements/the_corruption_team_create.json"
+        ]
+      },
+      "path": "~/Teams"
+    },
+    {
+      "name": "TheCorruptionTeamSet",
+      "type": "function",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_corruption_team_set",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/functions/the_corruption_team_set.mcfunction"
+        ]
+      },
+      "path": "~/Teams"
+    },
+    {
+      "name": "TheFallenTeamCreate",
+      "type": "achievement",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_fallen_team_create",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/advancements/the_fallen_team_create.json"
+        ]
+      },
+      "path": "~/Teams"
+    },
+    {
+      "name": "TheFallenTeamSet",
+      "type": "function",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_fallen_team_set",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/functions/the_fallen_team_set.mcfunction"
+        ]
+      },
+      "path": "~/Teams"
+    },
+    {
+      "name": "CorruptBeastNaturalEntitySpawningCondition",
+      "type": "procedure",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_beast_natural_entity_spawning_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptBeastNaturalEntitySpawningConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Entities"
+    },
+    {
+      "name": "LiquidCorruptionClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_corruption_client_display_random_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/LiquidCorruptionClientDisplayRandomTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Blocks/Procedures"
+    },
+    {
+      "name": "CorruptIgniterOnRightClick",
+      "type": "procedure",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_igniter_on_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/procedures/CorruptIgniterOnRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Tools/Procedures"
+    },
+    {
+      "name": "Corrite",
+      "type": "item",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrite.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CorriteItem.java"
+        ]
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "CorriteFuel",
+      "type": "itemextension",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrite_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/Materials"
+    },
+    {
+      "name": "BlockOfCorrite",
+      "type": "block",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_corrite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/blockstates/block_of_corrite.json",
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfCorriteBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/block_of_corrite.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_corrite.json"
+        ]
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "BlockOfCorriteFuel",
+      "type": "itemextension",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_corrite_fuel",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "CorriteOre",
+      "type": "block",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrite_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrite_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrite_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrite_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorriteOreBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrite_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorriteOreFeature.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrite_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "CorriteOreLootTable",
+      "type": "loottable",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrite_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/corrite_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "CorriteRecipe",
+      "type": "recipe",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrite_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Items"
+    },
+    {
+      "name": "BlockOfCorriteRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_corrite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/block_of_corrite_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "PolishedCorruptStone",
+      "type": "block",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_corrupt_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/polished_corrupt_stone.json",
+          "src/main/java/net/mcreator/maliceormercy/block/PolishedCorruptStoneBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/polished_corrupt_stone.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/polished_corrupt_stone.json"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "PolishedCorruptStoneRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_corrupt_stone_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/polished_corrupt_stone_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptStoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_stone_bricks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/corrupt_stone_bricks_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "CorruptFieldLakeGeneration",
+      "type": "feature",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_field_lake_generation",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_field_lake_generation_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_field_lake_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_field_lake_generation.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "CorruptRubyOre",
+      "type": "block",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_ruby_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_ruby_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_ruby_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_ruby_ore_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_ruby_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptRubyOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_ruby_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptRubyOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "CorruptSapphireOre",
+      "type": "block",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sapphire_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_sapphire_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_sapphire_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_sapphire_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_sapphire_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSapphireOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_sapphire_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptSapphireOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "CopperArmor",
+      "type": "armor",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_armor_helmet.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_armor_boots.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_armor_leggings.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_armor_chestplate.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CopperArmorItem.java"
+        ]
+      },
+      "path": "~/Armour"
+    },
+    {
+      "name": "CopperSword",
+      "type": "tool",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CopperSwordItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_sword.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CopperAxe",
+      "type": "tool",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CopperAxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_axe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CopperHoe",
+      "type": "tool",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CopperHoeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_hoe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CopperPickaxe",
+      "type": "tool",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/item/CopperPickaxeItem.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_pickaxe.json"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CopperShovel",
+      "type": "tool",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/copper_shovel.json",
+          "src/main/java/net/mcreator/maliceormercy/item/CopperShovelItem.java"
+        ]
+      },
+      "path": "~/Tools"
+    },
+    {
+      "name": "CopperHelmetRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "CopperChestplateRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "CopperLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "CopperBootsRecipe",
+      "type": "recipe",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_boots_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Armor"
+    },
+    {
+      "name": "SapphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "SapphireAxeRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "SapphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "SapphireShovelRecipe",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "SapphireHoeRecipe",
+      "type": "recipe",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/sapphire_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "CopperSwordRecipe",
+      "type": "recipe",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_sword_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "CopperAxeRecipe",
+      "type": "recipe",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_axe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "CopperPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "CopperShovelRecipe",
+      "type": "recipe",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "CopperHoeRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/copper_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Tools"
+    },
+    {
+      "name": "Corruptslate",
+      "type": "block",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corruptslate.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corruptslate_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptslateBlock.java",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptslateFeature.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corruptslate.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corruptslate.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/corruptslate.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corruptslate.json"
+        ]
+      },
+      "path": "~/Blocks/Stone"
+    },
+    {
+      "name": "CorruptslateGeneration",
+      "type": "feature",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptslate_generation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/world/features/CorruptslateGenerationFeature.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corruptslate_generation.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corruptslate_generation.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corruptslate_generation_biome_modifier.json"
+        ]
+      },
+      "path": "~/Features"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/silver_ingot.json",
+          "src/main/java/net/mcreator/maliceormercy/item/SilverIngotItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "BlockOfSilver",
+      "type": "block",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_silver",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfSilverBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/block/block_of_silver.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/block_of_silver.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_silver.json"
+        ]
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/silver_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/silver_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/SilverOreFeature.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/silver_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/silver_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/SilverOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/silver_ore.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/silver_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "DeepslateSilverOre",
+      "type": "block",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/deepslate_silver_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/item/deepslate_silver_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/deepslate_silver_ore_biome_modifier.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/deepslate_silver_ore.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/deepslate_silver_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/DeepslateSilverOreBlock.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/deepslate_silver_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/DeepslateSilverOreFeature.java"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "CorruptSilverOre",
+      "type": "block",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_silver_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/corrupt_silver_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/world/features/ores/CorruptSilverOreFeature.java",
+          "src/main/resources/data/malice_or_mercy/worldgen/configured_feature/corrupt_silver_ore.json",
+          "src/main/resources/data/malice_or_mercy/forge/biome_modifier/corrupt_silver_ore_biome_modifier.json",
+          "src/main/resources/data/malice_or_mercy/worldgen/placed_feature/corrupt_silver_ore.json",
+          "src/main/resources/assets/malice_or_mercy/models/block/corrupt_silver_ore.json",
+          "src/main/java/net/mcreator/maliceormercy/block/CorruptSilverOreBlock.java",
+          "src/main/resources/assets/malice_or_mercy/blockstates/corrupt_silver_ore.json"
+        ]
+      },
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "CorruptRubyOreLootTable",
+      "type": "loottable",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_ruby_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/corrupt_ruby_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "CorruptSapphireOreLootTable",
+      "type": "loottable",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_sapphire_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/corrupt_sapphire_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "RawSilver",
+      "type": "item",
+      "sortid": 253,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/item/raw_silver.json",
+          "src/main/java/net/mcreator/maliceormercy/item/RawSilverItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "SilverOreLootTable",
+      "type": "loottable",
+      "sortid": 254,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/silver_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "DeepslateSilverOreLootTable",
+      "type": "loottable",
+      "sortid": 255,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_silver_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/deepslate_silver_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "CorruptSilverOreLootTable",
+      "type": "loottable",
+      "sortid": 256,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupt_silver_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/loot_tables/blocks/corrupt_silver_ore.json"
+        ]
+      },
+      "path": "~/Loot Tables/Blocks"
+    },
+    {
+      "name": "BlockOfRawSilver",
+      "type": "block",
+      "sortid": 257,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_silver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/malice_or_mercy/models/block/block_of_raw_silver.json",
+          "src/main/java/net/mcreator/maliceormercy/block/BlockOfRawSilverBlock.java",
+          "src/main/resources/assets/malice_or_mercy/models/item/block_of_raw_silver.json",
+          "src/main/resources/assets/malice_or_mercy/blockstates/block_of_raw_silver.json"
+        ]
+      },
+      "path": "~/Blocks/Blocks"
+    },
+    {
+      "name": "BlockOfSilverRecipe",
+      "type": "recipe",
+      "sortid": 258,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_silver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/block_of_silver_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    },
+    {
+      "name": "BlockOfRawSilverRecipe",
+      "type": "recipe",
+      "sortid": 259,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_raw_silver_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/malice_or_mercy/recipes/block_of_raw_silver_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Crafting/Blocks"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "corruptFireVariable",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "MarkedCounter",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "item.armor.equip_amethyst",
+      "files": [
+        "equip_amethyst1",
+        "equip_amethyst2",
+        "equip_amethyst3",
+        "equip_amethyst4",
+        "equip_amethyst5",
+        "equip_amethyst6"
+      ],
+      "category": "neutral",
+      "subtitle": "Amethyst armor clangs"
+    },
+    {
+      "name": "entity.corrupt_fiend.death",
+      "files": [
+        "corrupt_fiend.death"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Fiend dies"
+    },
+    {
+      "name": "entity.corrupt_fiend.hurt",
+      "files": [
+        "corrupt_fiend.hurt1",
+        "corrupt_fiend.hurt2"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Fiend hurts"
+    },
+    {
+      "name": "entity.corrupt_fiend.step",
+      "files": [
+        "corrupt_fiend.step1",
+        "corrupt_fiend.step2",
+        "corrupt_fiend.step3",
+        "corrupt_fiend.step4",
+        "corrupt_fiend.step5"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.corrupt_fiend.ambient",
+      "files": [
+        "corrupt_fiend.idle1",
+        "corrupt_fiend.idle2"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Fiend groans"
+    },
+    {
+      "name": "entity.corrupt_hound.death",
+      "files": [
+        "corrupt_hound.death"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Hound dies"
+    },
+    {
+      "name": "entity.corrupt_hound.hurt",
+      "files": [
+        "corrupt_hound.hurt1",
+        "corrupt_hound.hurt2",
+        "corrupt_hound.hurt3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Hound hurts"
+    },
+    {
+      "name": "entity.corrupt_hound.step",
+      "files": [
+        "corrupt_hound.step1",
+        "corrupt_hound.step2",
+        "corrupt_hound.step3",
+        "corrupt_hound.step4",
+        "corrupt_hound.step5"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.corrupt_hound.ambient",
+      "files": [
+        "corrupt_hound.idle1",
+        "corrupt_hound.idle2",
+        "corrupt_hound.idle3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Hound growls"
+    },
+    {
+      "name": "entity.corrupt_hound.target",
+      "files": [
+        "corrupt_hound.howl1",
+        "corrupt_hound.howl2"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Hound howls"
+    },
+    {
+      "name": "item.armor.equip_ruby",
+      "files": [
+        "equip_ruby1",
+        "equip_ruby2",
+        "equip_ruby3",
+        "equip_ruby4",
+        "equip_ruby5",
+        "equip_ruby6"
+      ],
+      "category": "neutral",
+      "subtitle": "Ruby armor clangs"
+    },
+    {
+      "name": "item.armor.equip_sapphire",
+      "files": [
+        "equip_sapphire1",
+        "equip_sapphire2",
+        "equip_sapphire3",
+        "equip_sapphire4",
+        "equip_sapphire5",
+        "equip_sapphire6"
+      ],
+      "category": "neutral",
+      "subtitle": "Sapphire armor clangs"
+    },
+    {
+      "name": "effect.marked_execute",
+      "files": [
+        "marked_execute"
+      ],
+      "category": "neutral",
+      "subtitle": "Execution strikes"
+    },
+    {
+      "name": "entity.corrupt_spider.ambient",
+      "files": [
+        "corrupt_spider_idle1",
+        "corrupt_spider_idle2",
+        "corrupt_spider_idle3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Spider hisses"
+    },
+    {
+      "name": "entity.corrupt_spider.step",
+      "files": [
+        "corrupt_spider_step1",
+        "corrupt_spider_step2",
+        "corrupt_spider_step3"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "entity.corrupt_spider.hurt",
+      "files": [
+        "corrupt_spider_hurt1",
+        "corrupt_spider_hurt2",
+        "corrupt_spider_hurt3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Spider hurts"
+    },
+    {
+      "name": "entity.corrupt_spider.death",
+      "files": [
+        "corrupt_spider_death1",
+        "corrupt_spider_death2"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Spider dies"
+    },
+    {
+      "name": "entity.corrupt_beast.death",
+      "files": [
+        "corrupt_beast_death1",
+        "corrupt_beast_death2",
+        "corrupt_beast_death3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Beast dies"
+    },
+    {
+      "name": "entity.corrupt_beast.hurt",
+      "files": [
+        "corrupt_beast_hurt1",
+        "corrupt_beast_hurt2",
+        "corrupt_beast_hurt3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Beast hurts"
+    },
+    {
+      "name": "entity.corrupt_beast.ambient",
+      "files": [
+        "corrupt_beast_idle1",
+        "corrupt_beast_idle2",
+        "corrupt_beast_idle3"
+      ],
+      "category": "hostile",
+      "subtitle": "Corrupt Beast growls"
+    },
+    {
+      "name": "entity.corrupt_beast.step",
+      "files": [
+        "corrupt_beast_step1",
+        "corrupt_beast_step2",
+        "corrupt_beast_step3",
+        "corrupt_beast_step4",
+        "corrupt_beast_step5"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.entity.corrupt_fiend.ambient": "Corrupt Fiend groans",
+      "item.malice_or_mercy.sapphire_coin": "Sapphire Coin",
+      "item.malice_or_mercy.ruby_armour_chestplate": "Ruby Chestplate",
+      "item.malice_or_mercy.amethyst_armor_leggings": "Amethyst Leggings",
+      "block.malice_or_mercy.corrupt_stone_bricks": "Corrupt Stone Bricks",
+      "item.minecraft.potion.effect.corruption_potion": "Potion of Corruption",
+      "death.attack.execution": "%s was marked for execution",
+      "advancements.the_corruption_team_create.title": "Team Set The Corruption",
+      "item.malice_or_mercy.amethyst_armor_boots": "Amethyst Boots",
+      "block.malice_or_mercy.corruptslate": "Corruptslate",
+      "item.malice_or_mercy.ruby_pickaxe": "Ruby Pickaxe",
+      "block.malice_or_mercy.corrupt_berry_vine": "Corrupt Berry Vines",
+      "item.malice_or_mercy.liquid_corruption_bucket": "Liquid Corruption Bucket",
+      "block.malice_or_mercy.block_of_corrite": "Block Of Corrite",
+      "item.malice_or_mercy.copper_armor_chestplate": "Copper Chestplate",
+      "item.malice_or_mercy.silver_ingot": "Silver Ingot",
+      "block.malice_or_mercy.corrupt_sandstone": "Corrupt Sandstone",
+      "fluid.malice_or_mercy.liquid_corruption": "Liquid Corruption",
+      "block.malice_or_mercy.corrupt_fence": "Corrupt Wooden Fence",
+      "subtitles.entity.corrupt_spider.ambient": "Corrupt Spider hisses",
+      "block.malice_or_mercy.corrupt_silver_ore": "Corrupt Silver Ore",
+      "item.malice_or_mercy.sapphire_sword": "Sapphire Sword",
+      "effect.malice_or_mercy.corruption": "Corruption",
+      "item.malice_or_mercy.amethyst_armor_helmet": "Amethyst Helmet",
+      "block.malice_or_mercy.ruby_ore": "Ruby Ore",
+      "item.malice_or_mercy.ruby_axe": "Ruby Axe",
+      "subtitles.entity.corrupt_beast.ambient": "Corrupt Beast growls",
+      "item.malice_or_mercy.copper_shovel": "Copper Shovel",
+      "subtitles.corrupt_fiend/ambient": "Corrupt Fiend groans",
+      "item.malice_or_mercy.gold_coin": "Gold Coin",
+      "enchantment.malice_or_mercy.corrupt_aspect": "Corrupt Aspect",
+      "block.malice_or_mercy.deepslate_silver_ore": "Deepslate Silver Ore",
+      "item.malice_or_mercy.corrupt_flesh": "Corrupt Flesh",
+      "block.malice_or_mercy.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+      "subtitles.corrupt_hound/ambient": "Corrupt Hound growls",
+      "subtitles.entity.corrupt_hound.hurt": "Corrupt Hound hurts",
+      "enchantment.malice_or_mercy.lifesteal": "Lifesteal",
+      "item.malice_or_mercy.the_corruption": "Corrupt Igniter",
+      "item.malice_or_mercy.amethyst_hoe": "Amethyst Hoe",
+      "effect.malice_or_mercy.bleeding": "Bleeding",
+      "block.malice_or_mercy.corrite_ore": "Corrite Ore",
+      "item.malice_or_mercy.copper_sword": "Copper Sword",
+      "block.malice_or_mercy.corrupt_sprouts": "Corrupt Roots",
+      "item.minecraft.splash_potion.effect.corrupt_potion_potency_2": "Splash Potion of Corruption",
+      "effect.malice_or_mercy.marked": "Marked",
+      "subtitles.entity.corrupt_hound.death": "Corrupt Hound dies",
+      "item.minecraft.splash_potion.effect.bleeding_potion": "Splash Potion of Bleeding",
+      "item.malice_or_mercy.ruby_hoe": "Ruby Hoe",
+      "subtitles.corrupt_fiend/death": "Corrupt Fiend dies",
+      "item.malice_or_mercy.ruby_armour_helmet": "Ruby Helmet",
+      "item.malice_or_mercy.corrupt_powder": "Corrupt Powder",
+      "block.malice_or_mercy.corrupt_scale": "Corrupt Scale",
+      "item.malice_or_mercy.sapphire_armour_chestplate": "Sapphire Chestplate",
+      "item.malice_or_mercy.sapphire_armour_boots": "Sapphire Boots",
+      "item.minecraft.potion.effect.corrupt_potion_potency_2": "Potion of Corruption",
+      "item.malice_or_mercy.enchanted_diamond_apple": "Enchanted Diamond Apple",
+      "subtitles.corrupt_hound/step": "",
+      "item.minecraft.splash_potion.effect.corruption_potion": "Splash Potion of Corruption",
+      "item.malice_or_mercy.amethyst_apple": "Amethyst Apple",
+      "item.malice_or_mercy.onyx_coin": "Onyx Coin",
+      "advancements.the_corruption_team_create.descr": "Enables default friendly fire to all Corrupt mobs",
+      "item.malice_or_mercy.emerald_coin": "Emerald Coin",
+      "effect.malice_or_mercy.fear": "Fear",
+      "subtitles.corrupt_fiend/step": "",
+      "item.malice_or_mercy.human_spawn_egg": "Human Spawn Egg",
+      "item.malice_or_mercy.ruby_coin": "Ruby Coin",
+      "item.malice_or_mercy.fallen_swordsman_spawn_egg": "Fallen Swordsman Spawn Egg",
+      "item.malice_or_mercy.raw_silver": "Raw Silver",
+      "block.malice_or_mercy.block_of_ruby": "Block of Ruby",
+      "subtitles.entity.corrupt_beast.death": "Corrupt Beast dies",
+      "subtitles.entity.corrupt_beast.hurt": "Corrupt Beast hurts",
+      "item.malice_or_mercy.diamond_apple": "Diamond Apple",
+      "block.malice_or_mercy.liquid_corruption": "Liquid Corruption",
+      "death.attack.corrupt_fire": "%s burned alive in Corrupt Fire",
+      "item.malice_or_mercy.ruby_sword": "Ruby Sword",
+      "item.malice_or_mercy.copper_axe": "Copper Axe",
+      "subtitles.entity.ccorrupt_spider.death": "Corrupt Spider dies",
+      "enchantment.malice_or_mercy.formidable": "Formidable",
+      "entity.malice_or_mercy.human": "Human",
+      "subtitles.entity.corrupt_spider.death": "Corrupt Spider dies",
+      "enchantment.malice_or_mercy.wither_aspect": "Wither Aspect",
+      "item.malice_or_mercy.amethyst_shovel": "Amethyst Shovel",
+      "block.malice_or_mercy.block_of_silver": "Block of Silver",
+      "block.malice_or_mercy.corrupt_pumpkin_lantern": "Corrupt Pumpkin Lantern",
+      "death.attack.fear": "%s was consumed by fear",
+      "item.minecraft.potion.effect.bleeding_potion": "Potion of Bleeding",
+      "subtitles.entities.corrupt_fiend.death": "Corrupt Fiend dies",
+      "subtitles.entity.corrupt_hound.celebrate": "Corrupt Hound celebrates",
+      "item.malice_or_mercy.sapphire_hoe": "Sapphire Hoe",
+      "entity.malice_or_mercy.fallen_swordsman": "Fallen Swordsman",
+      "item.malice_or_mercy.sapphire_apple": "Sapphire Apple",
+      "subtitles.entity.corrupt_fiend.hurt": "Corrupt Fiend hurts",
+      "block.malice_or_mercy.corrupt_roots": "Corrupt Roots",
+      "subtitles.corrupt_hound/celebration": "Corrupt Hound celebrates",
+      "subtitles.item.armor.equip_sapphire": "Sapphire armor clangs",
+      "subtitles.entity.corrupt_hound.ambient": "Corrupt Hound growls",
+      "death.attack.corruption": "%s fell victim to The Corruption",
+      "entity.malice_or_mercy.corrupt_hound": "Corrupt Hound",
+      "item.malice_or_mercy.quartz_coin": "Quartz Coin",
+      "item.malice_or_mercy.silver_coin": "Silver Coin",
+      "item.malice_or_mercy.diamond_coin": "Diamond Coin",
+      "advancements.the_fallen_team_create.title": "Team Set The Fallen",
+      "item.malice_or_mercy.sapphire_shovel": "Sapphire Shovel",
+      "item.minecraft.lingering_potion.effect.corruption_potion": "Lingering Potion of Corruption",
+      "subtitles.corrupt_hound/death": "Corrupt Hound dies",
+      "block.malice_or_mercy.silver_ore": "Silver Ore",
+      "block.malice_or_mercy.corrupt_nylium": "Corrupt Nylium",
+      "entity.malice_or_mercy.corrupt_fiend": "Corrupt Fiend",
+      "item.malice_or_mercy.ruby": "Ruby",
+      "block.malice_or_mercy.carved_corrupt_pumpkin": "Carved Corrupt Pumpkin",
+      "biome.malice_or_mercy.corrupt_forest": "Corrupt Forest",
+      "item.malice_or_mercy.amethyst_coin": "Amethyst Coin",
+      "item.malice_or_mercy.sapphire_armour_helmet": "Sapphire Helmet",
+      "subtitles.entity.corrupt_fiend.step": "",
+      "item.malice_or_mercy.corrupt_hound_spawn_egg": "Corrupt Hound Spawn Egg",
+      "subtitles.entity.corrupt_hound.step": "",
+      "item.minecraft.tipped_arrow.effect.bleeding_potion": "Arrow of Bleeding",
+      "block.malice_or_mercy.corrupt_ruby_ore": "Corrupt Ruby Ore",
+      "item.minecraft.lingering_potion.effect.corrupt_potion_potency_2": "Lingering Potion of Corruption",
+      "item.malice_or_mercy.amethyst_sword": "Amethyst Sword",
+      "item.malice_or_mercy.corrupt_berries": "Corrupt Berries",
+      "block.malice_or_mercy.block_of_sapphire": "Block of Sapphire",
+      "item.malice_or_mercy.amethyst_axe": "Amethyst Axe",
+      "item_group.malice_or_mercy.malice_or_mercy": "Malice or Mercy",
+      "item.malice_or_mercy.snapped_corrupt_bone": "Snapped Corrupt Bone",
+      "item.malice_or_mercy.corrupt_beast_spawn_egg": "Corrupt Beast Spawn Egg",
+      "item.malice_or_mercy.fallen_archer_spawn_egg": "Fallen Archer Spawn Egg",
+      "subtitles.test": "Corrupt Fiend dies",
+      "item.malice_or_mercy.enchanted_ruby_apple": "Enchanted Ruby Apple",
+      "biome.malice_or_mercy.corrupt_field": "Corrupt Field",
+      "block.malice_or_mercy.corrupt_fence_gate": "Corrupt Wooden Fence Gate",
+      "subtitles.corrupt_hound/hurt": "Corrupt Hound hurts",
+      "block.malice_or_mercy.deepslate_ruby_ore": "Deepslate Ruby Ore",
+      "item.malice_or_mercy.ruby_apple": "Ruby Apple",
+      "item.malice_or_mercy.copper_hoe": "Copper Hoe",
+      "item.malice_or_mercy.ruby_armour_leggings": "Ruby Leggings",
+      "death.attack.bleeding": "%s bled to death",
+      "subtitles.entity.corrupt_spider.hurt": "Corrupt Spider hurts",
+      "item.malice_or_mercy.enchanted_amethyst_apple": "Enchanted Amethyst Apple",
+      "entity.malice_or_mercy.corrupt_beast": "Corrupt Beast",
+      "subtitles.entity.corrupt_fiend.death": "Corrupt Fiend dies",
+      "item.malice_or_mercy.copper_pickaxe": "Copper Pickaxe",
+      "item.minecraft.tipped_arrow.effect.corruption_potion_potency_1": "Arrow of Corruption",
+      "block.malice_or_mercy.corrupt_planks": "Corrupt Planks",
+      "item.malice_or_mercy.copper_armor_helmet": "Copper Helmet",
+      "block.malice_or_mercy.corrupt_fire": "Corrupt Fire",
+      "item.malice_or_mercy.enchanted_sapphire_apple": "Enchanted Sapphire Apple",
+      "death.attack.corrupt.quicksand": "%s suffocated in Corrupt Quicksand",
+      "subtitles.entity.corrupt_hound.target": "Corrupt Hound howls",
+      "item.malice_or_mercy.sapphire_armour_leggings": "Sapphire Leggings",
+      "enchantment.malice_or_mercy.poison_aspect": "Poison Aspect",
+      "entity.malice_or_mercy.corrupt_spider": "Corrupt Spider",
+      "item.malice_or_mercy.sapphire_axe": "Sapphire Axe",
+      "advancements.the_fallen_team_create.descr": "Enables default friendly fire to all Fallen Clan mobs",
+      "item.malice_or_mercy.amethyst_pickaxe": "Amethyst Pickaxe",
+      "block.malice_or_mercy.corrupt_pumpkin": "Corrupt Pumpkin",
+      "biome.malice_or_mercy.corrupt_dessert": "Corrupt Dessert",
+      "subtitles.corrupt_fiend.death": "Corrupt Fiend dies",
+      "block.malice_or_mercy.sapphire_ore": "Sapphire Ore",
+      "subtitles.corrupt_hound/idle": "Corrupt Hound growls",
+      "entity.malice_or_mercy.fallen_archer": "Fallen Archer",
+      "block.malice_or_mercy.chiseled_corrupt_sandstone": "Chiseled Corrupt Sandstone",
+      "item.malice_or_mercy.corrupt_spider_spawn_egg": "Corrupt Spider Spawn Egg",
+      "block.malice_or_mercy.corrupt_sapphire_ore": "Corrupt Sapphire Ore",
+      "enchantment.malice_or_mercy.execution": "Execution",
+      "block.malice_or_mercy.corrupt_stone": "Corrupt Stone",
+      "item.malice_or_mercy.corrupt_fiend_spawn_egg": "Corrupt Fiend Spawn Egg",
+      "subtitles.entity.corrupt_spider.step": "",
+      "subtitles.equip_amethyst": "Amethyst armor clangs",
+      "subtitles.corrupt_fiend/idle": "Corrupt Fiend groans",
+      "block.malice_or_mercy.polished_corrupt_stone": "Polished Corrupt Stone",
+      "item.malice_or_mercy.sapphire": "Sapphire",
+      "subtitles.effect.marked_execute": "Execution strikes",
+      "block.malice_or_mercy.corrupt_slab": "Corrupt Wooden Slab",
+      "block.malice_or_mercy.corrupt_sand": "Corrupt Sand",
+      "item.minecraft.potion.effect.corruption_potion_potency_1": "Potion of Corruption",
+      "block.malice_or_mercy.cut_corrupt_sandstone": "Cut Corrupt Sandstone",
+      "block.malice_or_mercy.corrupt_log": "Corrupt Log",
+      "effect.malice_or_mercy.test": "TEST",
+      "item.minecraft.tipped_arrow.effect.corruption_potion": "Arrow of Corruption",
+      "item.malice_or_mercy.corrupt_dust": "Corrupt Dust",
+      "item.malice_or_mercy.ruby_shovel": "Ruby Shovel",
+      "item.malice_or_mercy.copper_armor_boots": "Copper Boots",
+      "death.attack.liquid_corruption": "%s drowned in Liquid Corruption",
+      "item.malice_or_mercy.sapphire_pickaxe": "Sapphire Pickaxe",
+      "block.malice_or_mercy.block_of_raw_silver": "Block of Raw Silver",
+      "item.malice_or_mercy.corrupt_bone": "Corrupt Bone",
+      "item.malice_or_mercy.copper_armor_leggings": "Copper Leggings",
+      "item.minecraft.lingering_potion.effect.corruption_potion_potency_1": "Lingering Potion of Corruption",
+      "item.malice_or_mercy.copper_coin": "Copper Coin",
+      "subtitles.item.armor.equip_amethyst": "Amethyst armor clangs",
+      "item.malice_or_mercy.amethyst_armor_chestplate": "Amethyst Chestplate",
+      "item.minecraft.lingering_potion.effect.bleeding_potion": "Lingering Potion of Bleeding",
+      "subtitles.corrupt_fiend/hurt": "Corrupt Fiend hurts",
+      "block.malice_or_mercy.corrupt_stairs": "Corrupt Wooden Stairs",
+      "item.malice_or_mercy.ruby_armour_boots": "Ruby Boots",
+      "item.malice_or_mercy.corrupt_bone_shard": "Corrupt Bone Shard",
+      "item.minecraft.splash_potion.effect.corruption_potion_potency_1": "Splash Potion of Corruption",
+      "enchantment.malice_or_mercy.bleed": "Bleeding",
+      "item.minecraft.tipped_arrow.effect.corrupt_potion_potency_2": "Arrow of Corruption",
+      "subtitles.entity.corrupt_beast.step": "",
+      "item.malice_or_mercy.corrite": "Corrite",
+      "subtitles.item.armor.equip_ruby": "Ruby armor clangs",
+      "block.malice_or_mercy.smooth_corrupt_sandstone": "Smooth Corrupt Sandstone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Effects",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Enchantments",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Potions",
+        "children": []
+      },
+      {
+        "name": "Entities",
+        "children": [
+          {
+            "name": "EntityEffect",
+            "children": []
+          },
+          {
+            "name": "EntityTargeting",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Blocks",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Ground",
+            "children": []
+          },
+          {
+            "name": "Wood",
+            "children": []
+          },
+          {
+            "name": "Stone",
+            "children": []
+          },
+          {
+            "name": "Ores",
+            "children": []
+          },
+          {
+            "name": "Foliage",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Armour",
+        "children": []
+      },
+      {
+        "name": "Tools",
+        "children": [
+          {
+            "name": "Procedures",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Currency",
+            "children": [
+              {
+                "name": "Coin",
+                "children": []
+              },
+              {
+                "name": "Sigil",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Food",
+            "children": [
+              {
+                "name": "Procedures",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Gems",
+            "children": []
+          },
+          {
+            "name": "Materials",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": [
+          {
+            "name": "Crafting",
+            "children": [
+              {
+                "name": "Armor",
+                "children": []
+              },
+              {
+                "name": "Tools",
+                "children": []
+              },
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "Items",
+                "children": []
+              },
+              {
+                "name": "Vanilla Extensions",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Smelting",
+            "children": []
+          },
+          {
+            "name": "Brewing",
+            "children": []
+          },
+          {
+            "name": "Stonecutter",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Loot Tables",
+        "children": [
+          {
+            "name": "Entities",
+            "children": []
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Features",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Teams",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "malice_or_mercy",
+    "modName": "Malice or Mercy",
+    "version": "1.0.0",
+    "author": "calam, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.maliceormercy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

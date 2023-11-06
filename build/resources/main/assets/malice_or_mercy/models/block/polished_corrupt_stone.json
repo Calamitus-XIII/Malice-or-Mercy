@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/polished_corrupt_stone",
+    "up": "malice_or_mercy:block/polished_corrupt_stone",
+    "north": "malice_or_mercy:block/polished_corrupt_stone",
+    "east": "malice_or_mercy:block/polished_corrupt_stone",
+    "south": "malice_or_mercy:block/polished_corrupt_stone",
+    "west": "malice_or_mercy:block/polished_corrupt_stone",
+    "particle": "malice_or_mercy:block/polished_corrupt_stone"
+  },
+  "render_type": "solid"
+}

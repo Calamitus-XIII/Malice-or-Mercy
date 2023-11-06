@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:polished_corrupt_stone"
+    },
+    "1": {
+      "item": "malice_or_mercy:polished_corrupt_stone"
+    },
+    "2": {
+      "item": "malice_or_mercy:polished_corrupt_stone"
+    },
+    "3": {
+      "item": "malice_or_mercy:polished_corrupt_stone"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:corrupt_stone_bricks",
+    "count": 4
+  }
+}

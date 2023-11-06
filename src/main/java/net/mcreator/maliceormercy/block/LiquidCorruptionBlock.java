@@ -9,9 +9,11 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.maliceormercy.procedures.LiquidCorruptionMobplayerCollidesBlockProcedure;
+import net.mcreator.maliceormercy.procedures.LiquidCorruptionClientDisplayRandomTickProcedure;
 import net.mcreator.maliceormercy.init.MaliceOrMercyModFluids;
 
 public class LiquidCorruptionBlock extends LiquidBlock {
@@ -24,5 +26,11 @@ public class LiquidCorruptionBlock extends LiquidBlock {
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
 		super.entityInside(blockstate, world, pos, entity);
 		LiquidCorruptionMobplayerCollidesBlockProcedure.execute(entity);
+	}
+
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
+		super.animateTick(blockstate, world, pos, random);
+		LiquidCorruptionClientDisplayRandomTickProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

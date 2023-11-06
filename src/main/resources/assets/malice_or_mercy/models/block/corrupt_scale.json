@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "malice_or_mercy:block/corrupt_scale1",
-    "up": "malice_or_mercy:block/corrupt_scale1",
-    "north": "malice_or_mercy:block/corrupt_scale1",
-    "east": "malice_or_mercy:block/corrupt_scale1",
-    "south": "malice_or_mercy:block/corrupt_scale1",
-    "west": "malice_or_mercy:block/corrupt_scale1",
-    "particle": "malice_or_mercy:block/corrupt_scale1"
+    "down": "malice_or_mercy:block/corrupt_scale_updated",
+    "up": "malice_or_mercy:block/corrupt_scale_updated",
+    "north": "malice_or_mercy:block/corrupt_scale_updated",
+    "east": "malice_or_mercy:block/corrupt_scale_updated",
+    "south": "malice_or_mercy:block/corrupt_scale_updated",
+    "west": "malice_or_mercy:block/corrupt_scale_updated",
+    "particle": "malice_or_mercy:block/corrupt_scale_updated"
   },
   "render_type": "solid"
 }

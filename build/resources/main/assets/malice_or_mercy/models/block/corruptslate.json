@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/corruptslate",
+    "up": "malice_or_mercy:block/corruptslate",
+    "north": "malice_or_mercy:block/corruptslate",
+    "east": "malice_or_mercy:block/corruptslate",
+    "south": "malice_or_mercy:block/corruptslate",
+    "west": "malice_or_mercy:block/corruptslate",
+    "particle": "malice_or_mercy:block/corruptslate"
+  },
+  "render_type": "solid"
+}

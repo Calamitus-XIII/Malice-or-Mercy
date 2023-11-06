@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/silver_ore",
+    "up": "malice_or_mercy:block/silver_ore",
+    "north": "malice_or_mercy:block/silver_ore",
+    "east": "malice_or_mercy:block/silver_ore",
+    "south": "malice_or_mercy:block/silver_ore",
+    "west": "malice_or_mercy:block/silver_ore",
+    "particle": "malice_or_mercy:block/silver_ore"
+  },
+  "render_type": "solid"
+}

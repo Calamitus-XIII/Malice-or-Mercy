@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "malice_or_mercy:item/copper_axe"
+  }
+}

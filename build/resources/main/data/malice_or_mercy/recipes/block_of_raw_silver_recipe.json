@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "1": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "2": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "3": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "4": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "5": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "6": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "7": {
+      "item": "malice_or_mercy:raw_silver"
+    },
+    "8": {
+      "item": "malice_or_mercy:raw_silver"
+    }
+  },
+  "result": {
+    "item": "malice_or_mercy:block_of_raw_silver",
+    "count": 1
+  }
+}

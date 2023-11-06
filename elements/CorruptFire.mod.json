@@ -2,14 +2,14 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "corrupt_fire",
+    "texture": "corrupt_fire1",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 12,
-    "customModelName": "Cross model",
+    "renderType": 13,
+    "customModelName": "Crop model",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": true,
@@ -28,7 +28,7 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
-        "My": 16.0,
+        "My": 1.0,
         "Mz": 16.0,
         "subtract": false
       }
@@ -117,7 +117,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onTickUpdate": {
+    "onRandomUpdateEvent": {
       "name": "CorruptFireUpdateTick"
     },
     "onDestroyedByPlayer": {

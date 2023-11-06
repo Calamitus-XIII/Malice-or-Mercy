@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "malice_or_mercy:block_of_corrite"
+    }
+  ],
+  "result": {
+    "item": "malice_or_mercy:corrite",
+    "count": 9
+  }
+}

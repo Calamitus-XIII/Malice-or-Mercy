@@ -1,6 +1,7 @@
 package net.mcreator.maliceormercy.procedures;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
@@ -45,6 +46,10 @@ public class LiquidCorruptionMobplayerCollidesBlockProcedure {
 						}
 					}
 				}, 2);
+		}
+		if (entity instanceof ItemEntity) {
+			if (!entity.level().isClientSide())
+				entity.discard();
 		}
 	}
 }

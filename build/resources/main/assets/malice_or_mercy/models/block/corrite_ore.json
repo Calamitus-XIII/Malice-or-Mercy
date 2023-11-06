@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "malice_or_mercy:block/corrite_ore",
+    "up": "malice_or_mercy:block/corrite_ore",
+    "north": "malice_or_mercy:block/corrite_ore",
+    "east": "malice_or_mercy:block/corrite_ore",
+    "south": "malice_or_mercy:block/corrite_ore",
+    "west": "malice_or_mercy:block/corrite_ore",
+    "particle": "malice_or_mercy:block/corrite_ore"
+  },
+  "render_type": "solid"
+}

@@ -73,7 +73,7 @@ public class FearActiveTickConditionProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 400, 2, false, false));
 		}
-		if (Math.random() < 0.0001) {
+		if (Math.random() < 0.001) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
 					@Override

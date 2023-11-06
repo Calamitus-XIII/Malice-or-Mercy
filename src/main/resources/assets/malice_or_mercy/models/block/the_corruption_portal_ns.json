@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "malice_or_mercy:block/corrupt_portal",
-    "portal": "malice_or_mercy:block/corrupt_portal"
+    "particle": "malice_or_mercy:block/corrupt_portal_updated",
+    "portal": "malice_or_mercy:block/corrupt_portal_updated"
   },
   "elements": [
     {

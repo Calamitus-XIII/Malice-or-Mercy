@@ -27,7 +27,11 @@
               },
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "malice_or_mercy:corrupt_nylium",
+                "blocks": [
+                  "malice_or_mercy:corrupt_nylium",
+                  "malice_or_mercy:corrupt_stone",
+                  "malice_or_mercy:corrupt_sand"
+                ],
                 "offset": [
                   0,
                   -1,

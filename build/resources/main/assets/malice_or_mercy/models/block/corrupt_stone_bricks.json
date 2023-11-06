@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "malice_or_mercy:block/corrupt_stone_bricks",
-    "up": "malice_or_mercy:block/corrupt_stone_bricks",
-    "north": "malice_or_mercy:block/corrupt_stone_bricks",
-    "east": "malice_or_mercy:block/corrupt_stone_bricks",
-    "south": "malice_or_mercy:block/corrupt_stone_bricks",
-    "west": "malice_or_mercy:block/corrupt_stone_bricks",
-    "particle": "malice_or_mercy:block/corrupt_stone_bricks"
+    "down": "malice_or_mercy:block/corrupt_bricks",
+    "up": "malice_or_mercy:block/corrupt_bricks",
+    "north": "malice_or_mercy:block/corrupt_bricks",
+    "east": "malice_or_mercy:block/corrupt_bricks",
+    "south": "malice_or_mercy:block/corrupt_bricks",
+    "west": "malice_or_mercy:block/corrupt_bricks",
+    "particle": "malice_or_mercy:block/corrupt_bricks"
   },
   "render_type": "solid"
 }

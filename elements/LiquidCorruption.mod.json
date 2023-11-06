@@ -4,8 +4,8 @@
   "definition": {
     "name": "Liquid Corruption",
     "bucketName": "Liquid Corruption Bucket",
-    "textureStill": "liquid_corruption_still_strip",
-    "textureFlowing": "liquid_corruption_flow_strip",
+    "textureStill": "liquid_corruption_still_updated",
+    "textureFlowing": "liquid_corruption_flow_updated",
     "tintType": "No tint",
     "canMultiply": false,
     "flowRate": 5,
@@ -41,6 +41,9 @@
     "colorOnMap": "PURPLE",
     "onEntityCollides": {
       "name": "LiquidCorruptionMobplayerCollidesBlock"
+    },
+    "onRandomUpdateEvent": {
+      "name": "LiquidCorruptionClientDisplayRandomTick"
     }
   }
 }

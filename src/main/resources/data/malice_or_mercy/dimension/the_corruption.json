@@ -96,13 +96,10 @@
       "aquifers_enabled": false,
       "ore_veins_enabled": false,
       "default_block": {
-        "Name": "malice_or_mercy:corrupt_stone_bricks"
+        "Name": "malice_or_mercy:corrupt_stone"
       },
       "default_fluid": {
-        "Name": "malice_or_mercy:liquid_corruption",
-        "Properties": {
-          "level": "0"
-        }
+        "Name": "minecraft:air"
       },
       "spawn_target": [],
       "noise": {

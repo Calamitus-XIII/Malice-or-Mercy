@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "malice_or_mercy:corrupt_dessert",
+  "spawners": {
+    "type": "malice_or_mercy:corrupt_beast",
+    "weight": 20,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

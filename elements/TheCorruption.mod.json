@@ -15,10 +15,10 @@
     ],
     "worldGenType": "Normal world gen",
     "mainFillerBlock": {
-      "value": "CUSTOM:CorruptStoneBricks"
+      "value": "CUSTOM:CorruptStone"
     },
     "fluidBlock": {
-      "value": "CUSTOM:LiquidCorruption"
+      "value": "Blocks.AIR"
     },
     "airColor": {
       "value": -11403105,
@@ -48,7 +48,7 @@
       "value": "CUSTOM:MaliceOrMercy"
     },
     "texture": "corrupt_bone_and_powder",
-    "portalTexture": "corrupt_portal",
+    "portalTexture": "corrupt_portal_updated",
     "enablePortal": true
   }
 }

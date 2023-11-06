@@ -33,21 +33,21 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.loop"
     },
     "additionsSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.additions"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.soul_sand_valley.mood"
     },
     "moodSoundDelay": 6000,
-    "spawnParticles": false,
+    "spawnParticles": true,
     "particleToSpawn": {
-      "value": "EXPLOSION_NORMAL"
+      "value": "ASH"
     },
     "particlesProbability": 0.5,
     "rainingPossibility": 0.5,

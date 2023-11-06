@@ -1,14 +1,24 @@
 {
   "replace": false,
   "values": [
+    "malice_or_mercy:polished_corrupt_stone",
+    "malice_or_mercy:corrupt_stone_bricks",
     "malice_or_mercy:corrupt_sandstone",
     "malice_or_mercy:cut_corrupt_sandstone",
     "malice_or_mercy:chiseled_corrupt_sandstone",
     "malice_or_mercy:smooth_corrupt_sandstone",
+    "malice_or_mercy:corrite_ore",
     "malice_or_mercy:ruby_ore",
-    "malice_or_mercy:sapphire_ore",
     "malice_or_mercy:deepslate_ruby_ore",
+    "malice_or_mercy:corrupt_ruby_ore",
+    "malice_or_mercy:sapphire_ore",
     "malice_or_mercy:deepslate_sapphire_ore",
-    "malice_or_mercy:corrupt_stone_bricks"
+    "malice_or_mercy:corrupt_sapphire_ore",
+    "malice_or_mercy:silver_ore",
+    "malice_or_mercy:deepslate_silver_ore",
+    "malice_or_mercy:corrupt_silver_ore",
+    "malice_or_mercy:block_of_raw_silver",
+    "malice_or_mercy:block_of_corrite",
+    "malice_or_mercy:block_of_silver"
   ]
 }

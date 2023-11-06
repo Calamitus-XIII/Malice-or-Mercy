@@ -20,7 +20,7 @@ public class LiquidCorruptionFluidType extends FluidType {
 	@Override
 	public void initializeClient(Consumer<IClientFluidTypeExtensions> consumer) {
 		consumer.accept(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("malice_or_mercy:block/liquid_corruption_still_strip"), FLOWING_TEXTURE = new ResourceLocation("malice_or_mercy:block/liquid_corruption_flow_strip");
+			private static final ResourceLocation STILL_TEXTURE = new ResourceLocation("malice_or_mercy:block/liquid_corruption_still_updated"), FLOWING_TEXTURE = new ResourceLocation("malice_or_mercy:block/liquid_corruption_flow_updated");
 
 			@Override
 			public ResourceLocation getStillTexture() {
